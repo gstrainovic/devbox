@@ -100,21 +100,6 @@ services:
     networks:
       - internal
 
-  theia:
-    container_name: theia
-    restart: always
-    image: theiaide/theia
-    labels:
-      - "traefik.frontend.rule=Host:theia.gost.pw"
-      - "traefik.frontend.auth.basic=${BAUTH_USER}:${BAUTH_PASSWORD}"
-      - "traefik.port=3000"
-    networks:
-      - internal
-      - web
-    volumes:
-      - .:/home/project:cached
-    user: ${CURRENT_UID}
- 
 networks:
   web:
     external: true

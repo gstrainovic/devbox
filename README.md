@@ -18,7 +18,6 @@ docker-compose up -d
 | ------------- |:--------------  | -------------- |
 | Strapi        | strapi.gost.pw  | A headless cms |
 | Nuxt          | nuxt.gost.pw    | Static Vue with hot reloading and static website export|
-| Theia         | theia.gost.pw   | A IDE like VSCODE. Secured with password with help of traefik. |
 | Traefik       | traefik.gost.pw | Connect Docker with different subdomains on port 80 instead of different ports, ideal behind a firewall. The dashboard is also password protected.
-
+| Vue Argon Design System | -- | https://github.com/creativetimofficial/vue-argon-design-system
 

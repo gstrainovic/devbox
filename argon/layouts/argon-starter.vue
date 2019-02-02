@@ -3,19 +3,26 @@
     <header class="header-global">
         <base-nav class="navbar-main" transparent type="" effect="light" expand>
             <nuxt-link slot="brand" class="navbar-brand mr-lg-5" to="/">
-                <img src="/argon/img/brand/white.png">
+                <!-- <img src="/argon/img/brand/white.png"> -->
+                Strainovic IT
             </nuxt-link>
 
+
             <div class="row" slot="content-header" slot-scope="{closeMenu}">
-                <div class="col-6 collapse-brand">
+
+
+              <div class="col-6 collapse-brand">
                     <nuxt-link to="/">
-                        <img src="/argon/img/brand/blue.png">
+                Strainovic IT
+                      <!-- <img src="/argon/img/brand/blue.png"> -->
                     </nuxt-link>
                 </div>
                 <div class="col-6 collapse-close">
                     <close-button @click="closeMenu"></close-button>
                 </div>
             </div>
+
+            <!-- <nuxt-link to="./dienstleistungen">Dienstleistungen</nuxt-link> -->
 
             <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
                 <li class="nav-item dropdown">
@@ -200,4 +207,5 @@ export default {
 </script>
 
 <style>
+    
 </style>

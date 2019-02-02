@@ -1,74 +1,92 @@
 <template>
-  <section class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        vue-argon-design-system-nuxt
-      </h1>
-      <h2 class="subtitle">
-        Vue Argon Design System for Nuxt
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >GitHub</a>
+  <section>
+      <div>
+        <hero>test</hero>
       </div>
-      <div class="links">
-        <b-dropdown text="Argon" size="lg" class="m-md-2" variant="primary">
-          <b-dropdown-item :to="{name: 'argon-starter'}">Starter</b-dropdown-item>
-          <b-dropdown-item :to="{name: 'argon-demo'}">Demo</b-dropdown-item>
-        </b-dropdown>
+   <div class="container">  
+    <div class="row">
+      <div class="col-md-12">
+        <div class="form-group mt-3">
+          <input v-model="query" type="text" class="form-control" placeholder="Search...">
+        </div>
       </div>
     </div>
+    <div class="row">
+      <div class="col-md-12">
+        <ul class="card-columns list-unstyled">
+          <li v-for="restaurant in filteredList" :key="restaurant.id" class="card">
+            <img :src="restaurant.image.url" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">{{ restaurant.name }}</h5>
+              <p class="card-text">{{ restaurant.description || 'No description provided' }}.</p>
+              <router-link :to="{ name: 'restaurants-id', params: { id: restaurant.id }}" tag="a" class="btn btn-primary">
+                See dishes
+              </router-link>
+            </div>
+          </li>
+          <p v-if="!filteredList.length">No results :(</p>
+        </ul>
+      </div>
+    </div>
+   </div> 
   </section>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import Strapi from 'strapi-sdk-javascript/build/main'
+import Hero from "~/components/argon-demo/Hero";
+const apiUrl = process.env.API_URL || 'https://strapi.gost.pw'
+const strapi = new Strapi(apiUrl)
 
 export default {
+  layout: 'argon-starter',
   components: {
-    Logo
+      Hero
+  },
+  data() {
+    return {
+      query: ''
+    }
+  },
+  computed: {
+    filteredList() {
+      return this.restaurants.filter(restaurant => {
+        return restaurant.name.toLowerCase().includes(this.query.toLowerCase())
+      })
+    },
+    restaurants() {
+      return this.$store.getters['restaurants/list']
+    }
+  },
+  async fetch({ store }) {
+    store.commit('restaurants/emptyList')
+    const response = await strapi.request('post', '/graphql', {
+      data: {
+        query: `query {
+            restaurants {
+              _id
+              name
+              description
+              image {
+                url
+              }
+            }
+          }
+          `
+      }
+    })
+    response.data.restaurants.forEach(restaurant => {
+      restaurant.image.url = `${apiUrl}${restaurant.image.url}`
+      store.commit('restaurants/add', {
+        id: restaurant.id || restaurant._id,
+        ...restaurant
+      })
+    })
   }
 }
+
 </script>
-
-<style scoped>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
+<style>
 </style>
+
+
