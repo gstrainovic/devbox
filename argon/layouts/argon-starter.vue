@@ -21,11 +21,13 @@
                     <close-button @click="closeMenu"></close-button>
                 </div>
             </div>
-
-            <!-- <nuxt-link to="./dienstleistungen">Dienstleistungen</nuxt-link> -->
-
             <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
-                <li class="nav-item dropdown">
+ 
+             <li class="nav-item">
+              <nuxt-link class="nav-link" to="#">Dienstleistungen</nuxt-link>
+            </li>
+
+            <li class="nav-item dropdown">
                     <a href="#" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="ni ni-ui-04 d-lg-none"></i>
                         <span class="nav-link-inner--text">Components</span>
@@ -35,7 +37,7 @@
                             <a href="https://demos.creative-tim.com/argon-design-system/docs/getting-started/overview.html"
                                class="media d-flex align-items-center">
                                 <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
-                                    <i class="ni ni-spaceship"></i>
+                                    <i class="ni ni- spaceship"></i>
                                 </div>
                                 <div class="media-body ml-3">
                                     <h6 class="heading text-primary mb-md-1">Getting started</h6>
