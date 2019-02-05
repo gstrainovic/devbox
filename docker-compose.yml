@@ -39,7 +39,7 @@ services:
    
   argon:
     container_name: argon 
-    image: node:slim
+    image: node:10.15-alpine
     working_dir: "/src"
     environment:
       - HOST=0.0.0.0
@@ -47,7 +47,7 @@ services:
       - "3000:3000"
     volumes:
       - ./argon:/src:cached
-    command: bash -c "npm install && npm run dev"
+    command: sh -c "npm install && npm run dev"
     networks:
       - web
       - internal
