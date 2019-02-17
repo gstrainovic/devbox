@@ -37,34 +37,76 @@
                         Wir analysieren Ihre Anforderungen und Sie erhalten eine individuelle Empfehlung über die beste Lösung zu Ihrem Projekt.</p>
                     </div>
                     <div class="col-lg-6">
-                        <h2 class="display-3">Clevere Konfiguration</h2>
-                        <p class="lead text-muted">Sparen Sie durch uns Zeit und Geld. Wir erfinden nicht jedes mal das Rad neu.
+                        <h2 class="display-3">Konzept & Planung</h2>
+                        <p class="lead text-muted">Nach der Analyse Ihrer Anforderungen erstellen wir ein Konzept & Skizzen und erstellen
+                        einen Zeit- und Ausführungsplan.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <h2 class="display-3">Installation & Konfiguration</h2>
+                        <p class="lead text-muted">Wir erfinden nicht jedes mal das Rad neu.
                         Wir verwenden eine grosse Auswahl an bereits vorhanden Vorlagen, Plugins und Software welche wir abändern und verbinden.</p>
                     </div>
-                 </div>
-                 <div class="row mb-lg">
                     <div class="col-lg-6">
-                        <h2 class="display-3">Design & Programmierung</h2>
-                        <p class="lead text-muted">Keine Kompromisse. Fehlende Elemente wie z.B Designs, Templates und Erweiterungen werden von uns Design und Programmiert.</p>
+                        <h2 class="display-3">Projekt Managment</h2>
+                        <p class="lead text-muted">Ihr Projekt besteht bereits aus einem Team?
+                        Kein Problem, wir arbeiten mit Ihrem Team zusammen und übernehmen falls gewüscht die ganze Planung und Koordination bis zum
+                        Erfolgreichem Abschluss Ihres Projektes.</p>
                     </div>
                     <div class="col-lg-6">
+                        <h2 class="display-3">Design & Programmierung</h2>
+                        <p class="lead text-muted">Keine Kompromisse. Fehlende Elemente wie z.B Designs, Templates und Erweiterungen werden von uns Design und Programmiert.
+                        Dabei verwenden wir die neusten Standards und Empfehlungen.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <h2 class="display-3">Automation</h2>
+                        <p class="lead text-muted">Sparen Sie Zeit und Geld. Wir optimieren alle Ihre Prozesse, so das Sie viel weniger Daten eingeben müssten.
+                        Weniger eintippen und weniger copy & paste erhöht Ihre Produktivität und vermindert das Risiko von Fehlern.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <h2 class="display-3">Tests & Übergabe</h2>
+                        <p class="lead text-muted">Nachdem alle Arbeiten abgeschlossen sind, erfolgen die Qualitätstests. Dabei prüfen wir z.B bei Webseiten ob alles
+                        alles auf allen Geräten und alle Browsern korrekt dargestellt wird. Sind alle unsere Tests erfolgreich,
+                        freuen wir auf Ihre Prüfung und Abnahme.
+                        </p>
+                    </div>
+                    <div class="col-lg-6">
+                        <h2 class="display-3">Schulung</h2>
+                        <p class="lead text-muted">Sie und ggf. Iher Mitarbeiter erhalten entweder bei Ihnen lokal oder über Remote eine Schulung,
+                        um z.B im Webshop selbständig Produkte zu aktualisieren.
+                        </p>
+                    </div>
+                       <div class="col-lg-6">
                       <h2 class="display-3">Wartung & Sicherheit</h2>
                         <p class="lead text-muted">Keine Sorge vor Ausfällen oder Hacker. Durch die übernahme der Updates & Backups bleibt die gesamte Software wie
                         z.B CMS, Plugins, Server aktuell und ausfallsicher.</p>
                     </div>
+                       <div class="col-lg-6">
+                         <h2 class="display-3">Fehlerbehebung & Support</h2>
+                        <p class="lead text-muted">Sollte mal etwas nicht funktionieren, sind wir für Sie da.
+                        Wir kümmern uns um Ihr Problem und beheben sofort den Fehler.</p>
+                    </div>
                  </div>
             </div>
         </section>
-        <section class="section section-shaped my-0 overflow-hidden">
-            <div class="shape shape-style-3 bg-gradient-default shape-skew">
+        <!-- <section class="section section-shaped my-0 overflow-hidden"> -->
+            <!-- <div class="shape shape-style-3 bg-gradient-default shape-skew"> -->
+                <!-- <span></span> -->
+                <!-- <span></span> -->
+                <!-- <span></span> -->
+                <!-- <span></span> -->
+            <!-- </div> -->
+        <section class="section section section-shaped my-0 overflow-hidden">
+            <div class="shape shape-style-1 bg-gradient-warning shape-skew">
+                <span></span>
+                <span></span>
                 <span></span>
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
-           <div class="container pt-lg pb-300">
+            <div class="container pt-lg pb-300">
                 <div class="row">
-                    <div class="col-lg-10">
+                    <div class="col-lg-6">
                       <h2 class="display-3 text-white">Software</h2>
                       <h3 class="display-4 text-white">Konfiguration & Programmierung</h3>
                         <p class="lead text-white">Zusammen untersuchen wir den gesamten Informationsfluss Ihres Unternehmens.<br>
@@ -79,6 +121,11 @@
                         <p  class="lead text-white">Sie erhalten anschliessend Empfehlungen was und mit welchen Programmen und Technologien
                         konfiguriert und programmiert werden kann um Verbesserungen zu erreichen.</p>
                         <h3 class="display-3 mt-5 text-white">Ziele</h3>
+                    </div>
+                     <div class="col-md-6 order-lg-2 ml-lg-auto">
+                        <div class="position-relative pl-md-5">
+                            <img src="/argon/img/ill/ill-2.svg" class="img-center img-fluid">
+                        </div>
                     </div>
                 </div>
                 <div class="row row-grid mt-3">
@@ -116,10 +163,19 @@
                     </div>
                     <div class="col-md-6 order-md-1">
                         <div class="pr-md-5">
-                            <h2 class="display-3">Webdesign</h2>
+                            <h2 class="display-3">Design & Programmierung</h2>
+                            <h3 class="display-4">Webseite</h3>
                             <p class="lead">Sparen Sie Zeit und Nerven. Konzentrieren Sie sich auf Ihr Business und überlassen Sie Profis das Erstellen der Webseite.
                             So erhalten Sie schnell und einfach eine verführerisch schöne, individuelle Webseite.</p>
-                           <ul class="list-unstyled mt-5">
+                            <h2 class="display-3">Webseite</h2>
+                            <h3 class="display-4">Design & Programmierung</h3>
+                            <p class="lead">Sparen Sie Zeit und Nerven. Konzentrieren Sie sich auf Ihr Business und überlassen Sie Profis das Erstellen der Webseite.
+                            So erhalten Sie schnell und einfach eine verführerisch schöne, individuelle Webseite.</p>
+                            <h2 class="display-3">Webseite</h2>
+                            <h3 class="display-4">Design & Programmierung</h3>
+                            <p class="lead">Sparen Sie Zeit und Nerven. Konzentrieren Sie sich auf Ihr Business und überlassen Sie Profis das Erstellen der Webseite.
+                            So erhalten Sie schnell und einfach eine verführerisch schöne, individuelle Webseite.</p>
+                             <ul class="list-unstyled mt-5">
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
                                         <badge type="success" circle class="mr-3" icon="ni ni-settings-gear-65"></badge>

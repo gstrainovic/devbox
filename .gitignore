@@ -1,3 +1,4 @@
+yarn.lock
 db/
 .env
 node_modules/
