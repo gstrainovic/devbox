@@ -30,16 +30,16 @@
         </div>
         <section class="">
             <div class="container">
-                <div class="row mb-lg">
+                <div class="row mb-lg mt-5">
                     <div class="col-lg-6">
+                      <!-- <H title="Test"></H> -->
                         <h2 class="display-3">Analyse & Beratung</h2>
                         <p class="lead text-muted">Egal ob Startup, KMU, GmbH, AG, Einzelfirma oder Privatperson.
                         Wir analysieren Ihre Anforderungen und Sie erhalten eine individuelle Empfehlung über die beste Lösung zu Ihrem Projekt.</p>
                     </div>
                     <div class="col-lg-6">
                         <h2 class="display-3">Konzept & Planung</h2>
-                        <p class="lead text-muted">Nach der Analyse Ihrer Anforderungen erstellen wir ein Konzept & Skizzen und erstellen
-                        einen Zeit- und Ausführungsplan.</p>
+                        <p class="lead text-muted">Nach der Analyse Ihrer Anforderungen erstellen wir Konzepte, Skizzen und einen Zeit- und Ausführungsplan.</p>
                     </div>
                     <div class="col-lg-6">
                         <h2 class="display-3">Installation & Konfiguration</h2>
@@ -64,14 +64,13 @@
                     </div>
                     <div class="col-lg-6">
                         <h2 class="display-3">Tests & Übergabe</h2>
-                        <p class="lead text-muted">Nachdem alle Arbeiten abgeschlossen sind, erfolgen die Qualitätstests. Dabei prüfen wir z.B bei Webseiten ob alles
-                        alles auf allen Geräten und alle Browsern korrekt dargestellt wird. Sind alle unsere Tests erfolgreich,
-                        freuen wir auf Ihre Prüfung und Abnahme.
+                        <p class="lead text-muted">Nachdem alle Arbeiten abgeschlossen sind, erfolgen Qualitätstests. Dabei prüfen wir z.B bei Webseiten ob
+                        alles auf allen Geräten und alle Browsern korrekt dargestellt wird. Sind alle unsere Tests erfolgreich, freuen wir auf Ihre Prüfung und Abnahme.
                         </p>
                     </div>
                     <div class="col-lg-6">
                         <h2 class="display-3">Schulung</h2>
-                        <p class="lead text-muted">Sie und ggf. Iher Mitarbeiter erhalten entweder bei Ihnen lokal oder über Remote eine Schulung,
+                        <p class="lead text-muted">Sie und ggf. Iher Mitarbeiter erhalten entweder bei Ihnen lokal oder remote über Teamviewer eine Schulung,
                         um z.B im Webshop selbständig Produkte zu aktualisieren.
                         </p>
                     </div>
@@ -104,11 +103,10 @@
                 <span></span>
                 <span></span>
             </div>
-            <div class="container pt-lg pb-300">
+            <div class="container pt-lg pb-100">
                 <div class="row">
                     <div class="col-lg-6">
-                      <h2 class="display-3 text-white">Software</h2>
-                      <h3 class="display-4 text-white">Konfiguration & Programmierung</h3>
+                      <h2 class="display-1 text-white">Software</h2>
                         <p class="lead text-white">Zusammen untersuchen wir den gesamten Informationsfluss Ihres Unternehmens.<br>
                         Dabei wird u.a folgende Bereiche analyisiert und optimiert:</p>
                         <ul class="lead text-white">
@@ -117,13 +115,16 @@
                           <li>Shop</li>
                           <li>Logistik</li>
                           <li>Buchhaltung</li>
+                          <li>Office</li>
+                          <li>Intranet</li>
+                          <li>Betroffene Server, Datenbanken, Programme, Module, Plugins, Scripts und Erweiterungen</li>
                         </ul>
                         <p  class="lead text-white">Sie erhalten anschliessend Empfehlungen was und mit welchen Programmen und Technologien
-                        konfiguriert und programmiert werden kann um Verbesserungen zu erreichen.</p>
+                        designt, konfiguriert und programmiert werden kann um Verbesserungen zu erreichen.</p>
                         <h3 class="display-3 mt-5 text-white">Ziele</h3>
                     </div>
                      <div class="col-md-6 order-lg-2 ml-lg-auto">
-                        <div class="position-relative pl-md-5">
+                        <div class="position-relative pl-md-5 mt-5">
                             <img src="/argon/img/ill/ill-2.svg" class="img-center img-fluid">
                         </div>
                     </div>
@@ -152,7 +153,14 @@
                         <p class="text-white mt-3">Sichern Sie sich vor Hacker und Ausfällen.
                         Wir richten Ihren Server und Software so ein, das automatisch alles aktualisiert und backups erstellt werden.</p>
                     </div>
-                </div>
+                     <div class="col-lg-6">
+                        <icon name="ni ni-atom" size="lg" gradient="white" shadow round color="primary"></icon>
+                        <h5 class="text-white mt-3">Schulung</h5>
+                        <p class="text-white mt-3">Holen Sie das beste aus Ihrer Software heraus und steigern Sie die Produktivität.
+                        Wir zeigen wie Sie alle Funktionen Ihrer Software optimal einsetzen. Bei Ihnen Vorort oder remote über Teamviewer.
+                        </p>
+                    </div>
+                 </div>
             </div>
         </section>
         <section class="section section-lg">
@@ -163,27 +171,24 @@
                     </div>
                     <div class="col-md-6 order-md-1">
                         <div class="pr-md-5">
-                            <h2 class="display-3">Design & Programmierung</h2>
-                            <h3 class="display-4">Webseite</h3>
+                           <h2 class="display-1">Web</h2>
+                            <h3 class="display-5">Egal ob Webseite, Webshop, Webportal oder Webapp</h3>
                             <p class="lead">Sparen Sie Zeit und Nerven. Konzentrieren Sie sich auf Ihr Business und überlassen Sie Profis das Erstellen der Webseite.
                             So erhalten Sie schnell und einfach eine verführerisch schöne, individuelle Webseite.</p>
-                            <h2 class="display-3">Webseite</h2>
-                            <h3 class="display-4">Design & Programmierung</h3>
-                            <p class="lead">Sparen Sie Zeit und Nerven. Konzentrieren Sie sich auf Ihr Business und überlassen Sie Profis das Erstellen der Webseite.
-                            So erhalten Sie schnell und einfach eine verführerisch schöne, individuelle Webseite.</p>
-                            <h2 class="display-3">Webseite</h2>
-                            <h3 class="display-4">Design & Programmierung</h3>
-                            <p class="lead">Sparen Sie Zeit und Nerven. Konzentrieren Sie sich auf Ihr Business und überlassen Sie Profis das Erstellen der Webseite.
-                            So erhalten Sie schnell und einfach eine verführerisch schöne, individuelle Webseite.</p>
-                             <ul class="list-unstyled mt-5">
+                            <ul class="list-unstyled mt-5">
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
                                         <badge type="success" circle class="mr-3" icon="ni ni-settings-gear-65"></badge>
                                         <h4 class="mb-0">Beratung</h4>
                                     </div>
-                                        <p>Anhand Ihrer Ziele und Anforderungen erhalten Sie Empfehlungen über die besten Technologien für Ihre Webseite.</p>
+                                        <p>Anhand Ihrer Ziele und Anforderungen erhalten Sie Empfehlungen über die besten Technologien, Konzepte, Skizzen und einen Zeit- und Ausführungsplan.</p>
                                 </li>
-                                 <li class="py-2">
+                           </ul>
+                           </div>
+                         </div>
+                       </div>
+                             <div class="row row-grid pr-md-5">
+                                 <div class="col-md-6 mt-n4">
                                     <div class="d-flex align-items-center">
                                         <badge type="success" circle class="mr-3" icon="ni ni-settings-gear-65"></badge>
                                         <h4 class="mb-0">Domain & Hosting</h4>
@@ -191,34 +196,37 @@
                                         <p>Natürlich beraten wir Sie auch bei der Auswahl des Domains und des bestem Hostings.
                                         Wir kennen die besten Hostings für alle Bereiche, egal ob statisch, WordPress oder komplexe Webapps / Webplattformen.
                                        </p>
-                                </li>
-                                <li class="py-2">
+                                </div>
+                                 <div class="col-md-6 mt-n4">
                                     <div class="d-flex align-items-center">
                                         <badge type="success" circle class="mr-3" icon="ni ni-html5"></badge>
                                         <h4 class="mb-0">Individuelles Design</h4>
                                     </div>
                                         <p>Sie wählen ein Theme aus hunderten aus, wir passen diese Vorlage Ihren individuellen Wünschen an.</p>
-                                </li>
-                            </ul>
-                           </div>
-                         </div>
-                       </div>
-                             <div class="row row-grid pr-md-5">
-                                <div class="col-md-6 mt-n5">
+                                </div>
+                                 <div class="col-md-6 mt-4">
                                     <div class="d-flex align-items-center">
                                         <badge type="success" circle class="mr-3" icon="ni ni-html5"></badge>
                                         <h4 class="mb-0">Responsive</h4>
                                     </div>
                                         <p>Ihre Webseite wird auf allen Geräten funktionieren, egal ob Desktop, Smartphone oder Tablet.</p>
                                 </div>
-                                <div class="col-md-6 mt-n5">
+                                <div class="col-md-6 mt-4">
                                     <div class="d-flex align-items-center">
                                         <badge type="success" circle class="mr-3" icon="ni ni-satisfied"></badge>
                                         <h4 class="mb-0">Https/SSL Verschlüsselung</h4>
                                     </div>
                                         <p>Sichern Sie sich Vorteile bei Google und Sicherheit durch unsere kostenlose Https/SSL Verschlüsselung.</p>
                                 </div>
-                                <div class="col-md-6 mt-4">
+                                   <div class="col-md-6 mt-4">
+                                    <div class="d-flex align-items-center">
+                                        <badge type="success" circle class="mr-3" icon="ni ni-satisfied"></badge>
+                                        <h4 class="mb-0">Webshop & Bezahlfunktionen</h4>
+                                    </div>
+                                      <p>Wir richten Ihren Shop/Plattform und die Bezahlfunktionen ein, so das Sie Ihre Produkte & Dienstleistungen einfach online verkaufen können.
+                                        </p>
+                                    </div>
+                                 <div class="col-md-6 mt-4">
                                     <div class="d-flex align-items-center">
                                         <badge type="success" circle class="mr-3" icon="ni ni-satisfied"></badge>
                                         <h4 class="mb-0">Performance</h4>
@@ -240,7 +248,7 @@
                                         <h4 class="mb-0">SEO & Google</h4>
                                     </div>
                                         <p>Wir optimieren Ihre Webseite für SEO damit Sie bei Google gefunden werden.</p>
-                                </div>
+                                   </div>
                                    <div class="col-md-6 mt-4">
                                     <div class="d-flex align-items-center">
                                         <badge type="success" circle class="mr-3" icon="ni ni-satisfied"></badge>
@@ -348,44 +356,45 @@
                 </div>
             </div>
         </section>
-        <section class="section bg-secondary">
-            <div class="container">
-                <div class="row row-grid align-items-center">
-                    <div class="col-md-6">
-                        <div class="card bg-default shadow border-0">
-                            <img v-lazy="'/argon/img/theme/img-1-1200x1000.jpg'" class="card-img-top">
-                            <blockquote class="card-blockquote">
-                                <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95"
-                                     class="svg-bg">
-                                    <polygon points="0,52 583,95 0,95" class="fill-default"></polygon>
-                                    <polygon points="0,42 583,95 683,0 0,95" opacity=".2" class="fill-default"></polygon>
-                                </svg>
-                                <h4 class="display-3 font-weight-bold text-white">Design System</h4>
-                                <p class="lead text-italic text-white">The Arctic Ocean freezes every winter and much of
-                                    the sea-ice then thaws every summer and that process will continue whatever
-                                    happens.</p>
-                            </blockquote>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="pl-md-5">
-                            <icon name="ni ni-settings" class="mb-5" size="lg" type="warning" shadow rounded></icon>
-
-                            <h3>Our customers</h3>
-                            <p class="lead">Don't let your uses guess by attaching tooltips and popoves to any element.
-                                Just make sure you enable them first via JavaScript.</p>
-                            <p>The kit comes with three pre-built pages to help you get started faster. You can change
-                                the text and images and you're good to go.</p>
-                            <p>The kit comes with three pre-built pages to help you get started faster. You can change
-                                the text and images and you're good to go.</p>
-                            <a href="#" class="font-weight-bold text-warning mt-5">A beautiful UI Kit for impactful
-                                websites</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section section section-shaped my-0 overflow-hidden">
+        <!-- <section class="section bg-secondary"> -->
+            <!-- <div class="container"> -->
+                <!-- <div class="row row-grid align-items-center"> -->
+                    <!-- <div class="col-md-6"> -->
+                        <!-- <div class="card bg-default shadow border-0"> -->
+                            <!-- <img v-lazy="'/argon/img/theme/img-1-1200x1000.jpg'" class="card-img-top"> -->
+                            <!-- <blockquote class="card-blockquote"> -->
+                                <!-- <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95" -->
+                                     <!-- class="svg-bg"> -->
+                                    <!-- <polygon points="0,52 583,95 0,95" class="fill-default"></polygon> -->
+                                    <!-- <polygon points="0,42 583,95 683,0 0,95" opacity=".2" class="fill-default"></polygon> -->
+                                <!-- </svg> -->
+                                <!-- <h4 class="display-3 font-weight-bold text-white">Design System</h4> -->
+                                <!-- <p class="lead text-italic text-white">The Arctic Ocean freezes every winter and much of -->
+                                    <!-- the sea-ice then thaws every summer and that process will continue whatever -->
+                                    <!-- happens.</p> -->
+                            <!-- </blockquote> -->
+                        <!-- </div> -->
+                    <!-- <div class="col-md-6"> -->
+                        <!-- <div class="card bg-default shadow border-0"> -->
+                            <!-- <img v-lazy="'/argon/img/theme/img-1-1200x1000.jpg'" class="card-img-top"> -->
+                            <!-- <blockquote class="card-blockquote"> -->
+                                <!-- <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95" -->
+                                     <!-- class="svg-bg"> -->
+                                    <!-- <polygon points="0,52 583,95 0,95" class="fill-default"></polygon> -->
+                                    <!-- <polygon points="0,42 583,95 683,0 0,95" opacity=".2" class="fill-default"></polygon> -->
+                                <!-- </svg> -->
+                                <!-- <h4 class="display-3 font-weight-bold text-white">Design System</h4> -->
+                                <!-- <p class="lead text-italic text-white">The Arctic Ocean freezes every winter and much of -->
+                                    <!-- the sea-ice then thaws every summer and that process will continue whatever -->
+                                    <!-- happens.</p> -->
+                            <!-- </blockquote> -->
+                        <!-- </div> -->
+                     <!-- </div> -->
+                  <!-- </div> -->
+                <!-- </div> -->
+            <!-- </div> -->
+        <!-- </section> -->
+        <!-- <section class="section section section-shaped my-0 overflow-hidden"> -->
             <div class="shape shape-style-1 bg-gradient-warning shape-skew">
                 <span></span>
                 <span></span>
@@ -702,10 +711,14 @@
 </template>
 
 <script>
+import H from "~/components/h";
+
 export default {
   name: "home",
   layout: 'default',
-  components: {}
+  components: {
+    H
+  }
 };
 </script>
 

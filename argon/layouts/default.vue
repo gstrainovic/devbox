@@ -60,30 +60,12 @@
     <main>
         <nuxt />
     </main>
-     <footer class="footer has-cards">
-        <div class="container container-lg">
-            <div class="row">
-                <div class="col-md-6 mb-5 mb-md-0">
-                    <div class="card card-lift--hover shadow border-0">
-                        <nuxt-link :to="{name: 'argon-demo-landing'}" title="Landing Page">
-                            <img v-lazy="'/argon/img/theme/landing.jpg'" class="card-img">
-                        </nuxt-link>
-                    </div>
-                </div>
-                <div class="col-md-6 mb-5 mb-lg-0">
-                    <div class="card card-lift--hover shadow border-0">
-                        <nuxt-link :to="{name: 'argon-demo-profile'}" title="Profile Page">
-                            <img v-lazy="'/argon/img/theme/profile.jpg'" class="card-img">
-                        </nuxt-link>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
+     <footer class="footer">
+       <div class="container">
             <div class="row row-grid align-items-center my-md">
                 <div class="col-lg-6">
-                    <h3 class="text-primary font-weight-light mb-2">Vielen Dank für deine Unterstützung!</h3>
-                    <h4 class="mb-0 font-weight-light">Folge mir auf einer dieser Plattformen.</h4>
+                    <h3 class="text-primary font-weight-light mb-2">Vielen Dank für Ihre Unterstützung!</h3>
+                    <h4 class="mb-0 font-weight-light">Folgen Sie uns auf einer dieser Plattformen.</h4>
                 </div>
                 <div class="col-lg-6 text-lg-center btn-wrapper">
                     <a target="_blank" href="https://twitter.com/Strainovic_IT"
@@ -106,7 +88,7 @@
                        title="Folge mir auf LinkedIn">
                         <i class="fa fa-linkedin"></i>
                     </a>
-                    <a target="_blank" href="https://github.com/gstrainovic"
+                       <a target="_blank" href="https://github.com/gstrainovic"
                        class="btn btn-neutral btn-icon-only btn-github btn-round btn-lg" data-toggle="tooltip"
                        title="Spendiere mir einen Stern auf Github">
                         <i class="fa fa-github"></i>
@@ -123,15 +105,10 @@
             <hr>
             <div class="row align-items-center justify-content-md-between">
                 <div class="col-md-6">
-                    <div class="copyright">
-                        &copy; 2018
-                        <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>.
-                    </div>
-                </div>
-                <div class="col-md-6">
                     <ul class="nav nav-footer justify-content-end">
                         <li class="nav-item">
-                            <a href="https://www.creative-tim.com" class="nav-link" target="_blank">Creative Tim</a>
+                            <nuxt-link :to="{name: 'argon-demo-landing'}" class="nav-link">Kontaktformular</nuxt-link>
+                            <!-- <a href="https://www.creative-tim.com" class="nav-link" target="_blank">Creative Tim</a> -->
                         </li>
                         <li class="nav-item">
                             <a href="https://www.creative-tim.com/presentation" class="nav-link" target="_blank">About
