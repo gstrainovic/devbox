@@ -166,38 +166,36 @@
         <section class="section section-lg">
             <div class="container">
                 <div class="row row-grid ">
-                    <div class="col-md-6 order-md-2">
+                    <div class="col-md-4 order-md-2 m-auto">
                         <img src="/argon/img/theme/promo-1.png" class="img-fluid floating">
                     </div>
                     <div class="col-md-6 order-md-1">
                         <div class="pr-md-5">
                            <h2 class="display-1">Web</h2>
                             <h3 class="display-5">Egal ob Webseite, Webshop, Webportal oder Webapp</h3>
-                            <p class="lead">Sparen Sie Zeit und Nerven. Konzentrieren Sie sich auf Ihr Business und überlassen Sie Profis das Erstellen der Webseite.
+                            <p class="lead">Sparen Sie Zeit und Nerven.<br>Konzentrieren Sie sich auf Ihr Business und überlassen Sie Profis das Erstellen der Webseite.
                             So erhalten Sie schnell und einfach eine verführerisch schöne, individuelle Webseite.</p>
-                            <ul class="list-unstyled mt-5">
-                                <li class="py-2">
+                           </div>
+                         </div>
+                       </div>
+                             <div class="row row-grid pr-md-5">
+                                <div class="col-md-6 mt-4">
                                     <div class="d-flex align-items-center">
                                         <badge type="success" circle class="mr-3" icon="ni ni-settings-gear-65"></badge>
                                         <h4 class="mb-0">Beratung</h4>
                                     </div>
                                         <p>Anhand Ihrer Ziele und Anforderungen erhalten Sie Empfehlungen über die besten Technologien, Konzepte, Skizzen und einen Zeit- und Ausführungsplan.</p>
-                                </li>
-                           </ul>
-                           </div>
-                         </div>
-                       </div>
-                             <div class="row row-grid pr-md-5">
-                                 <div class="col-md-6 mt-n4">
-                                    <div class="d-flex align-items-center">
-                                        <badge type="success" circle class="mr-3" icon="ni ni-settings-gear-65"></badge>
-                                        <h4 class="mb-0">Domain & Hosting</h4>
-                                    </div>
-                                        <p>Natürlich beraten wir Sie auch bei der Auswahl des Domains und des bestem Hostings.
-                                        Wir kennen die besten Hostings für alle Bereiche, egal ob statisch, WordPress oder komplexe Webapps / Webplattformen.
-                                       </p>
                                 </div>
-                                 <div class="col-md-6 mt-n4">
+                                <div class="col-md-6 mt-4">
+                                <div class="d-flex align-items-center">
+                                    <badge type="success" circle class="mr-3" icon="ni ni-settings-gear-65"></badge>
+                                    <h4 class="mb-0">Domain & Hosting</h4>
+                                </div>
+                                    <p>Natürlich beraten wir Sie auch bei der Auswahl des Domains und des bestem Hostings.
+                                    Wir kennen die besten Hostings für alle Bereiche, egal ob statisch, WordPress oder komplexe Webapps / Webplattformen.
+                                   </p>
+                                </div>
+                                 <div class="col-md-6 mt-4">
                                     <div class="d-flex align-items-center">
                                         <badge type="success" circle class="mr-3" icon="ni ni-html5"></badge>
                                         <h4 class="mb-0">Individuelles Design</h4>
