@@ -34,66 +34,59 @@
                     <div class="col-lg-6">
                       <!-- <H title="Test"></H> -->
                         <h2 class="display-3">Analyse & Beratung</h2>
-                        <p class="lead text-muted">Egal ob Startup, KMU, GmbH, AG, Einzelfirma oder Privatperson.
-                        Wir analysieren Ihre Anforderungen und Sie erhalten eine individuelle Empfehlung über die beste Lösung zu Ihrem Projekt.</p>
-                    </div>
-                    <div class="col-lg-6">
-                        <h2 class="display-3">Konzept & Planung</h2>
-                        <p class="lead text-muted">Nach der Analyse Ihrer Anforderungen erstellen wir Konzepte, Skizzen und einen Zeit- und Ausführungsplan.</p>
+                        <p class="lead text-muted">Egal ob Start-up, KMU, GmbH, AG, Einzelfirma oder Privatperson.
+                        Anhand Ihrer Anforderungen erhalten Sie eine individuelle Empfehlung über die beste Lösung zu Ihrem Projekt.
+                        </p>
                     </div>
                     <div class="col-lg-6">
                         <h2 class="display-3">Installation & Konfiguration</h2>
-                        <p class="lead text-muted">Wir erfinden nicht jedes mal das Rad neu.
-                        Wir verwenden eine grosse Auswahl an bereits vorhanden Vorlagen, Plugins und Software welche wir abändern und verbinden.</p>
+                        <p class="lead text-muted">Das Rad wird nicht neu erfunden. Dank Know-how und Zugriff auf bereits vorhanden Vorlagen,
+                        Plugins und Software, sparen Sie Geld und Zeit.
+                        </p>
                     </div>
                     <div class="col-lg-6">
-                        <h2 class="display-3">Projekt Managment</h2>
-                        <p class="lead text-muted">Ihr Projekt besteht bereits aus einem Team?
-                        Kein Problem, wir arbeiten mit Ihrem Team zusammen und übernehmen falls gewüscht die ganze Planung und Koordination bis zum
-                        Erfolgreichem Abschluss Ihres Projektes.</p>
+                        <h2 class="display-3">Projektpanung & Projektmanagement</h2>
+                        <p class="lead text-muted">Gerne arbeiten wir mit Ihrem Team zusammen und übernehmen,
+                        falls gewünscht die ganze Planung und Koordination bis zum erfolgreichen Abschluss Ihres Projektes.
+                        </p>
                     </div>
                     <div class="col-lg-6">
                         <h2 class="display-3">Design & Programmierung</h2>
-                        <p class="lead text-muted">Keine Kompromisse. Fehlende Elemente wie z.B Designs, Templates und Erweiterungen werden von uns Design und Programmiert.
-                        Dabei verwenden wir die neusten Standards und Empfehlungen.</p>
+                        <p class="lead text-muted">Keine Kompromisse. Fehlende Elemente wie z. B. Designs,
+                        Templates und Erweiterungen werden mit neuesten Standards, Empfehlungen und Technologien neu designt und programmiert.
+                        </p>
                     </div>
                     <div class="col-lg-6">
                         <h2 class="display-3">Automation</h2>
-                        <p class="lead text-muted">Sparen Sie Zeit und Geld. Wir optimieren alle Ihre Prozesse, so das Sie viel weniger Daten eingeben müssten.
-                        Weniger eintippen und weniger copy & paste erhöht Ihre Produktivität und vermindert das Risiko von Fehlern.</p>
+                        <p class="lead text-muted">Sparen Sie Zeit und Geld. Es werden alle Ihre Prozesse optimiert,
+                        so das Sie viel weniger Daten eingeben müssten. Weniger eintippen und seltener Kopieren und Einfügen erhöht Ihre Produktivität und vermindert das Risiko von Fehlern.
+                        </p>
                     </div>
                     <div class="col-lg-6">
                         <h2 class="display-3">Tests & Übergabe</h2>
-                        <p class="lead text-muted">Nachdem alle Arbeiten abgeschlossen sind, erfolgen Qualitätstests. Dabei prüfen wir z.B bei Webseiten ob
-                        alles auf allen Geräten und alle Browsern korrekt dargestellt wird. Sind alle unsere Tests erfolgreich, freuen wir auf Ihre Prüfung und Abnahme.
+                        <p class="lead text-muted">Nachdem alle Arbeiten abgeschlossen sind, erfolgen Qualitätstests.
+                        Dabei wird z. B. bei Webseiten geprüft, ob alles auf allen Geräten und alle Browsern korrekt dargestellt wird.
                         </p>
                     </div>
                     <div class="col-lg-6">
                         <h2 class="display-3">Schulung</h2>
-                        <p class="lead text-muted">Sie und ggf. Iher Mitarbeiter erhalten entweder bei Ihnen lokal oder remote über Teamviewer eine Schulung,
-                        um z.B im Webshop selbständig Produkte zu aktualisieren.
+                        <p class="lead text-muted">Sie und ggf. Ihre Mitarbeiter erhalten entweder bei Ihnen lokal oder remote über TeamViewer
+                        eine Schulung, um z. B. im Webshop selbstständig Produkte zu aktualisieren.
                         </p>
                     </div>
                        <div class="col-lg-6">
                       <h2 class="display-3">Wartung & Sicherheit</h2>
-                        <p class="lead text-muted">Keine Sorge vor Ausfällen oder Hacker. Durch die übernahme der Updates & Backups bleibt die gesamte Software wie
-                        z.B CMS, Plugins, Server aktuell und ausfallsicher.</p>
+                        <p class="lead text-muted">Keine Sorge vor Ausfällen oder Hacker. Durch die Übernahme der Updates und Backups bleibt die gesamte Software wie z. B. CMS, Plugins, Server aktuell und ausfallsicher.
+                        </p>
                     </div>
                        <div class="col-lg-6">
                          <h2 class="display-3">Fehlerbehebung & Support</h2>
-                        <p class="lead text-muted">Sollte mal etwas nicht funktionieren, sind wir für Sie da.
-                        Wir kümmern uns um Ihr Problem und beheben sofort den Fehler.</p>
+                        <p class="lead text-muted">Auch nach dem Projektende können Sie mit einem zuverlässigen Partner rechnen, welcher Störungen behebt.
+                        </p>
                     </div>
                  </div>
             </div>
         </section>
-        <!-- <section class="section section-shaped my-0 overflow-hidden"> -->
-            <!-- <div class="shape shape-style-3 bg-gradient-default shape-skew"> -->
-                <!-- <span></span> -->
-                <!-- <span></span> -->
-                <!-- <span></span> -->
-                <!-- <span></span> -->
-            <!-- </div> -->
         <section class="section section section-shaped my-0 overflow-hidden">
             <div class="shape shape-style-1 bg-gradient-warning shape-skew">
                 <span></span>
@@ -107,8 +100,9 @@
                 <div class="row">
                     <div class="col-lg-6">
                       <h2 class="display-1 text-white">Software</h2>
-                        <p class="lead text-white">Zusammen untersuchen wir den gesamten Informationsfluss Ihres Unternehmens.<br>
-                        Dabei wird u.a folgende Bereiche analyisiert und optimiert:</p>
+                        <p class="lead text-white">Zusammen untersuchen wir den gesamten Informationsfluss Ihres Unternehmens.
+                        Dabei wird u. a folgende Bereiche analysiert und optimiert:
+                        </p>
                         <ul class="lead text-white">
                           <li>Web/CMS</li>
                           <li>ERP/CRM</li>
@@ -119,8 +113,8 @@
                           <li>Intranet</li>
                           <li>Betroffene Server, Datenbanken, Programme, Module, Plugins, Scripts und Erweiterungen</li>
                         </ul>
-                        <p  class="lead text-white">Sie erhalten anschliessend Empfehlungen was und mit welchen Programmen und Technologien
-                        designt, konfiguriert und programmiert werden kann um Verbesserungen zu erreichen.</p>
+                        <p  class="lead text-white">Sie erhalten anschliessend Empfehlungen was und mit welchen Programmen und Technologien designt, konfiguriert und programmiert werden kann, um Verbesserungen zu erreichen.
+                        </p>
                         <h3 class="display-3 mt-5 text-white">Ziele</h3>
                     </div>
                      <div class="col-md-6 order-lg-2 ml-lg-auto">
@@ -133,31 +127,35 @@
                     <div class="col-lg-6">
                         <icon name="ni ni-settings" size="lg" gradient="white" shadow round color="primary"></icon>
                         <h5 class="text-white mt-3">Benutzerfreundlichkeit</h5>
-                        <p class="text-white mt-3">Wir designen und programmieren Ihre Software mit einer modernen Benutzeroberfläche, auch als GUI, UI, User Interface bekannt.
-                        Dadurch erhalten Sie einen hohen Bedienkomfort. Auf allen Geräten wie z.B PC/Mac, Mobile und Tablet.</p>
+                        <p class="text-white mt-3">Ihre Software wird mit einer modernen Benutzeroberfläche,
+                        auch als GUI, UI, User Interface bekannt, designt und programmiert. Dadurch erhalten Sie einen hohen Bedienkomfort. Auf allen Geräten wie z. B. PC/Mac, Mobile und Tablet.
+                        </p>
                     </div>
                     <div class="col-lg-6">
                         <icon name="ni ni-ruler-pencil" size="lg" gradient="white" shadow round color="primary"></icon>
                         <h5 class="text-white mt-3">Lizenzkosten & Erweiterungen</h5>
-                        <p class="text-white mt-3">Durch Open Source sparen Sie Lizenzkosten und erhöhen die Anpassungsfähigkeit Ihrer Software. </p>
+                        <p class="text-white mt-3">Durch Open Source sparen Sie Lizenzkosten und erhöhen die Anpassungsfähigkeit Ihrer Software.
+                        </p>
                     </div>
                     <div class="col-lg-6">
                         <icon name="ni ni-atom" size="lg" gradient="white" shadow round color="primary"></icon>
                         <h5 class="text-white mt-3">Automation</h5>
-                        <p class="text-white mt-3">Wir verbinden alle Ihre Programme, so das diese zusammenarbeiten und Sie weniger Daten eingeben müssen.
-                        Dadurch sparen Sie Zeit und Geld, erhöhen die Produktivität und reduzieren die Fehler beim eintippen oder beim kopieren & einfügen.</p>
+                        <p class="text-white mt-3">Ihre Programme werden so konfiguriert, dass Sie weniger Daten eingeben müssen.
+                        Dadurch sparen Sie Zeit und Geld, erhöhen die Produktivität und reduzieren Fehler beim Eintippen oder beim Kopieren und Einfügen.
+                        </p>
                     </div>
                      <div class="col-lg-6">
                         <icon name="ni ni-atom" size="lg" gradient="white" shadow round color="primary"></icon>
                         <h5 class="text-white mt-3">Sicherheit</h5>
-                        <p class="text-white mt-3">Sichern Sie sich vor Hacker und Ausfällen.
-                        Wir richten Ihren Server und Software so ein, das automatisch alles aktualisiert und backups erstellt werden.</p>
+                       <p class="text-white mt-3">Sichern Sie sich vor Hacker und Ausfällen. Ihr Server und alle Programme werden so eingerichtet,
+                       dass automatisch alles aktualisiert wird und Backups erstellt werde.
+                      </p>
                     </div>
                      <div class="col-lg-6">
                         <icon name="ni ni-atom" size="lg" gradient="white" shadow round color="primary"></icon>
                         <h5 class="text-white mt-3">Schulung</h5>
-                        <p class="text-white mt-3">Holen Sie das beste aus Ihrer Software heraus und steigern Sie die Produktivität.
-                        Wir zeigen wie Sie alle Funktionen Ihrer Software optimal einsetzen. Bei Ihnen Vorort oder remote über Teamviewer.
+                        <p class="text-white mt-3">Holen Sie das Beste aus Ihrer Software heraus und steigern Sie die Produktivität.
+                        Sie lernen, alle Funktionen Ihrer Software optimal einzusetzen. Bei Ihnen vor Ort oder Remote über TeamViewer.
                         </p>
                     </div>
                  </div>
@@ -172,9 +170,10 @@
                     <div class="col-md-6 order-md-1">
                         <div class="pr-md-5">
                            <h2 class="display-1">Web</h2>
-                            <h3 class="display-5">Egal ob Webseite, Webshop, Webportal oder Webapp</h3>
-                            <p class="lead">Sparen Sie Zeit und Nerven.<br>Konzentrieren Sie sich auf Ihr Business und überlassen Sie Profis das Erstellen der Webseite.
-                            So erhalten Sie schnell und einfach eine verführerisch schöne, individuelle Webseite.</p>
+                            <h3 class="display-5">Egal ob Webseite, Webshop, Webportal oder Web-App.</h3>
+                            <p class="lead">Konzentrieren Sie sich auf Ihr Business und überlassen Sie Profis das Erstellen der Webseite.
+                            So erhalten Sie schnell und einfach eine verführerisch schöne, individuelle Webseite.
+                            </p>
                            </div>
                          </div>
                        </div>
@@ -184,91 +183,100 @@
                                         <badge type="success" circle class="mr-3" icon="ni ni-settings-gear-65"></badge>
                                         <h4 class="mb-0">Beratung</h4>
                                     </div>
-                                        <p>Anhand Ihrer Ziele und Anforderungen erhalten Sie Empfehlungen über die besten Technologien, Konzepte, Skizzen und einen Zeit- und Ausführungsplan.</p>
+                                        <p>Anhand Ihrer Ziele und Anforderungen erhalten Sie Empfehlungen über die besten Technologien,
+                                        Konzepte, Skizzen und einen Zeit- und Ausführungsplan.
+                                        </p>
                                 </div>
                                 <div class="col-md-6 mt-4">
                                 <div class="d-flex align-items-center">
                                     <badge type="success" circle class="mr-3" icon="ni ni-settings-gear-65"></badge>
                                     <h4 class="mb-0">Domain & Hosting</h4>
                                 </div>
-                                    <p>Natürlich beraten wir Sie auch bei der Auswahl des Domains und des bestem Hostings.
-                                    Wir kennen die besten Hostings für alle Bereiche, egal ob statisch, WordPress oder komplexe Webapps / Webplattformen.
-                                   </p>
+                                    <p>Bei einer Beratung werden Sie über Domains und Hosting informiert.
+                                     Sie erhalten Empfehlungen über die besten Webserver für alle Bereiche, egal ob statisch,
+                                     WordPress oder komplexe Web-Apps / Webplattformen.
+                                    </p>
                                 </div>
                                  <div class="col-md-6 mt-4">
                                     <div class="d-flex align-items-center">
                                         <badge type="success" circle class="mr-3" icon="ni ni-html5"></badge>
                                         <h4 class="mb-0">Individuelles Design</h4>
                                     </div>
-                                        <p>Sie wählen ein Theme aus hunderten aus, wir passen diese Vorlage Ihren individuellen Wünschen an.</p>
+                                        <p>Sie wählen ein Theme aus hunderten aus, die Vorlage wird Ihren individuellen Wünschen angepasst.
+                                        </p>
                                 </div>
                                  <div class="col-md-6 mt-4">
                                     <div class="d-flex align-items-center">
                                         <badge type="success" circle class="mr-3" icon="ni ni-html5"></badge>
                                         <h4 class="mb-0">Responsive</h4>
                                     </div>
-                                        <p>Ihre Webseite wird auf allen Geräten funktionieren, egal ob Desktop, Smartphone oder Tablet.</p>
+                                        <p>Ihre Webseite wird auf allen Geräten funktionieren, egal ob Desktop, Smartphone oder Tablet.
+                                        </p>
                                 </div>
                                 <div class="col-md-6 mt-4">
                                     <div class="d-flex align-items-center">
                                         <badge type="success" circle class="mr-3" icon="ni ni-satisfied"></badge>
-                                        <h4 class="mb-0">Https/SSL Verschlüsselung</h4>
+                                        <h4 class="mb-0">HTTPS/SSL Verschlüsselung</h4>
                                     </div>
-                                        <p>Sichern Sie sich Vorteile bei Google und Sicherheit durch unsere kostenlose Https/SSL Verschlüsselung.</p>
+                                        <p>Sichern Sie sich Vorteile bei Google und Sicherheit durch unsere kostenlose HTTPS/SSL Codierung.</p>
                                 </div>
                                    <div class="col-md-6 mt-4">
                                     <div class="d-flex align-items-center">
                                         <badge type="success" circle class="mr-3" icon="ni ni-satisfied"></badge>
                                         <h4 class="mb-0">Webshop & Bezahlfunktionen</h4>
                                     </div>
-                                      <p>Wir richten Ihren Shop/Plattform und die Bezahlfunktionen ein, so das Sie Ihre Produkte & Dienstleistungen einfach online verkaufen können.
-                                        </p>
+                                      <p>Ihr Shop/Plattform und die Zahlungsmöglichkeiten werden so konfiguriert, das Sie Ihre Produkte und
+                                      Dienstleistungen einfach online verkaufen können.
+                                      </p>
                                     </div>
                                  <div class="col-md-6 mt-4">
                                     <div class="d-flex align-items-center">
                                         <badge type="success" circle class="mr-3" icon="ni ni-satisfied"></badge>
                                         <h4 class="mb-0">Performance</h4>
                                     </div>
-                                        <p>Webseitenbesucher lieben schnelle Webseiten.
-                                        Wir optimieren Ihre Webseite so, das es blitzschnell lädt. Google und Ihre Besucher werden es lieben.</p>
+                                        <p>Webseitenbesucher lieben schnelle Webseiten. Ihre Webseite wird optimiert,
+                                        sodass es blitzschnell lädt. Google und Ihre Besucher werden es lieben.
+                                        </p>
                                 </div>
                                  <div class="col-md-6 mt-4">
                                     <div class="d-flex align-items-center">
                                         <badge type="success" circle class="mr-3" icon="ni ni-satisfied"></badge>
                                         <h4 class="mb-0">Content</h4>
                                     </div>
-                                    <p>Wir unterstützen Sie beim Inhalt, daher bei der Erstellung von Texten und bei der Auswahl und Anpassung der passenden
-                                    Bilder, Videos, Icons und Grafiken.</p>
+                                    <p>Erhalten Sie Unterstützung auch beim Inhalt, daher bei der Erstellung von Texten und bei der Auswahl und Anpassung der passenden Bilder, Videos, Icons und Grafiken.
+                                    </p>
                                 </div>
                                   <div class="col-md-6 mt-4">
                                     <div class="d-flex align-items-center">
                                         <badge type="success" circle class="mr-3" icon="ni ni-satisfied"></badge>
                                         <h4 class="mb-0">SEO & Google</h4>
                                     </div>
-                                        <p>Wir optimieren Ihre Webseite für SEO damit Sie bei Google gefunden werden.</p>
+                                        <p>Ihre Webseite wird für SEO optimiert damit Sie bei Google gefunden werden.</p>
                                    </div>
                                    <div class="col-md-6 mt-4">
                                     <div class="d-flex align-items-center">
                                         <badge type="success" circle class="mr-3" icon="ni ni-satisfied"></badge>
                                         <h4 class="mb-0">Google Business & Maps</h4>
                                     </div>
-                                        <p>Durch Google Business & Maps werden Sie noch einfacher, vorallem Lokal gefunden.</p>
+                                        <p>Durch Google Business & Maps werden Sie noch einfacher, vor allem Lokal gefunden.
+                                        </p>
                                     </div>
                                    <div class="col-md-6 mt-4">
                                     <div class="d-flex align-items-center">
                                         <badge type="success" circle class="mr-3" icon="ni ni-satisfied"></badge>
                                        <h4 class="mb-0">Impresssum & Datenschutzerklärung</h4>
                                     </div>
-                                        <p>Ihr Impressum & Datenschutzerklärung erstellen wir auf dem neusten Stand des schweizer und europäischem
-                                        Datenschutzes (DSGVO), so müssen Sie sich rechtlich keine Sorgen machen.</p>
+                                        <p>Ihr Impressum & Datenschutzerklärung wird auf dem neuesten Stand des Schweizer und europäischen
+                                        Datenschutzes DSGVO erstellt, so müssen Sie sich rechtlich keine Sorgen machen.
+                                        </p>
                                     </div>
                                    <div class="col-md-6 mt-4">
                                     <div class="d-flex align-items-center">
                                         <badge type="success" circle class="mr-3" icon="ni ni-satisfied"></badge>
-                                        <h4 class="mb-0">Email</h4>
+                                        <h4 class="mb-0">E-Mail</h4>
                                     </div>
-                                        <p>Erhalten Sie so viele Email Adresse wie benötigt. Wir übernehmen das einrichten auf dem Hosting/Server,
-                                        und auf Ihrem PC/Mac und Smartphone/Tablets, von Ihnen und ggf. Ihren Mitarbeitern.
+                                        <p>Erhalten Sie so viele E-Mail-Adressen wie benötigt.
+                                        Eingerichtet auf dem Hosting/Server und auf Ihrem PC/Mac und Smartphone/Tablets, von Ihnen und ggf. Ihren Mitarbeitern.
                                         </p>
                                     </div>
                                    <div class="col-md-6 mt-4">
@@ -276,21 +284,22 @@
                                         <badge type="success" circle class="mr-3" icon="ni ni-satisfied"></badge>
                                         <h4 class="mb-0">Sicherheit</h4>
                                     </div>
-                                      <p>Wir richten alles so ein, das Ihre Webseite automatisch Backups erstellt, und Plugins aktualisiert.i
-                                      Keine bösen Überaschungen durch Hacker oder Ausfälle. Sie müssen sich darüber keine Sorgen mehr machen und keine
-                                      Wartungen selber planen und ausführen.
-                                        </p>
+                                      <p>Keine bösen Überraschungen durch Hacker oder Ausfälle. Ihre Webseite wird so eingerichtet,
+                                      dass automatisch Backups erstellt, und Plugins aktualisiert werden.
+                                      Sie müssen sich darüber keine Sorgen mehr machen und keine Wartungen selber planen und ausführen.
+                                      </p>
                                     </div>
                                    <div class="col-md-6 mt-4">
                                     <div class="d-flex align-items-center">
                                         <badge type="success" circle class="mr-3" icon="ni ni-satisfied"></badge>
                                         <h4 class="mb-0">Inhalte pflegen & Support</h4>
                                     </div>
-                                      <p>Ein kurzes Mail genügt, und wir aktualisieren Ihre Inhalte oder kümmern um Ihr Problem.
-                                      Sie möchten lieber selber Inhalte anpassen? Dank benutzerfreundliche CMS und Builder ist dies nach einer kurzen Schulung kein Problem für Sie.
-                                        </p>
+                                      <p>Ein kurzes E-Mail oder Anruf genügt und Ihre Inhalte werden aktualisiert oder Ihr Problem wird behoben.
+                                      Sie möchten lieber selber Ihr Webcontent anpassen?
+                                      Dank benutzerfreundliche CMS und Builder ist dies nach einer kurzen Schulung kein Problem für Sie.
+                                      </p>
                                     </div>
-                         </div>
+                             </div>
                         </div>
        </section>
      <section class="section section-lg pt-lg-0 ">
@@ -461,7 +470,7 @@
                             Ted, Scambos, NSIDClead scentist, puts the potentially record maximum.</p>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row justify-content-center">
                     <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
                         <div class="px-4">
                             <img v-lazy="'/argon/img/theme/team-1-800x800.jpg'"
@@ -470,79 +479,11 @@
                             <div class="pt-4 text-center">
                                 <h5 class="title">
                                     <span class="d-block mb-1">Ryan Tompson</span>
-                                    <small class="h6 text-muted">Web Developer</small>
+                                      <small class="h6 text-muted">Gründer</small>
+                                      <small class="h6 text-muted">Developer</small>
+                                      <small class="h6 text-muted">Designer</small>
+                                      <small class="h6 text-muted">PM</small>
                                 </h5>
-                                <div class="mt-3">
-                                    <base-button tag="a" href="#" type="warning" icon="fa fa-twitter" rounded
-                                                 icon-only></base-button>
-                                    <base-button tag="a" href="#" type="warning" icon="fa fa-facebook" rounded
-                                                 icon-only></base-button>
-                                    <base-button tag="a" href="#" type="warning" icon="fa fa-dribbble" rounded
-                                                 icon-only></base-button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
-                        <div class="px-4">
-                            <img v-lazy="'/argon/img/theme/team-2-800x800.jpg'"
-                                 class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                                 style="width: 200px;">
-                            <div class="pt-4 text-center">
-                                <h5 class="title">
-                                    <span class="d-block mb-1">Romina Hadid</span>
-                                    <small class="h6 text-muted">Marketing Strategist</small>
-                                </h5>
-                                <div class="mt-3">
-                                    <base-button tag="a" href="#" type="primary" icon="fa fa-twitter" rounded
-                                                 icon-only></base-button>
-                                    <base-button tag="a" href="#" type="primary" icon="fa fa-facebook" rounded
-                                                 icon-only></base-button>
-                                    <base-button tag="a" href="#" type="primary" icon="fa fa-dribbble" rounded
-                                                 icon-only></base-button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
-                        <div class="px-4">
-                            <img v-lazy="'/argon/img/theme/team-3-800x800.jpg'"
-                                 class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                                 style="width: 200px;">
-                            <div class="pt-4 text-center">
-                                <h5 class="title">
-                                    <span class="d-block mb-1">Alexander Smith</span>
-                                    <small class="h6 text-muted">UI/UX Designer</small>
-                                </h5>
-                                <div class="mt-3">
-                                    <base-button tag="a" href="#" type="info" icon="fa fa-twitter" rounded
-                                                 icon-only></base-button>
-                                    <base-button tag="a" href="#" type="info" icon="fa fa-facebook" rounded
-                                                 icon-only></base-button>
-                                    <base-button tag="a" href="#" type="info" icon="fa fa-dribbble" rounded
-                                                 icon-only></base-button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
-                        <div class="px-4">
-                            <img v-lazy="'/argon/img/theme/team-4-800x800.jpg'"
-                                 class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                                 style="width: 200px;">
-                            <div class="pt-4 text-center">
-                                <h5 class="title">
-                                    <span class="d-block mb-1">John Doe</span>
-                                    <small class="h6 text-muted">Founder and CEO</small>
-                                </h5>
-                                <div class="mt-3">
-                                    <base-button tag="a" href="#" type="success" icon="fa fa-twitter" rounded
-                                                 icon-only></base-button>
-                                    <base-button tag="a" href="#" type="success" icon="fa fa-facebook" rounded
-                                                 icon-only></base-button>
-                                    <base-button tag="a" href="#" type="success" icon="fa fa-dribbble" rounded
-                                                 icon-only></base-button>
-                                </div>
                             </div>
                         </div>
                     </div>

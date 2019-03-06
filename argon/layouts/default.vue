@@ -22,15 +22,16 @@
                     </a>
                     <nuxt-link :to="{name: 'argon-demo-landing'}" class="dropdown-item">Übersicht</nuxt-link>
                     <nuxt-link :to="{name: 'argon-demo-landing'}" class="dropdown-item">Web</nuxt-link>
-                    <nuxt-link :to="{name: 'argon-demo-profile'}" class="dropdown-item">Domain</nuxt-link>
-                    <nuxt-link :to="{name: 'argon-demo-login'}" class="dropdown-item">Hosting</nuxt-link>
-                    <nuxt-link :to="{name: 'argon-demo-register'}" class="dropdown-item">Shops</nuxt-link>
+                    <nuxt-link :to="{name: 'argon-demo-landing'}" class="dropdown-item">Software</nuxt-link>
                </base-dropdown>
                <base-dropdown tag="li" class="nav-item">
                     <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="ni ni-single-02"></i>
-                        <span class="nav-link-inner--text">Über mich</span>
+                        <span class="nav-link-inner--text">Über uns</span>
                     </a>
+                    <nuxt-link :to="{name: 'argon-demo-landing'}" class="dropdown-item">Über Strainovic IT</nuxt-link>
+                    <div class="dropdown-divider"></div>
+                    <nuxt-link :to="{name: 'argon-demo-landing'}" class="dropdown-item">Über den Gründer</nuxt-link>
                     <nuxt-link :to="{name: 'argon-demo-landing'}" class="dropdown-item">Personalien</nuxt-link>
                     <nuxt-link :to="{name: 'argon-demo-profile'}" class="dropdown-item">Skills</nuxt-link>
                     <nuxt-link :to="{name: 'argon-demo-login'}" class="dropdown-item">Ausbildung</nuxt-link>
@@ -70,32 +71,32 @@
                 <div class="col-lg-6 text-lg-center btn-wrapper">
                     <a target="_blank" href="https://twitter.com/Strainovic_IT"
                        class="btn btn-neutral btn-icon-only btn-twitter btn-round btn-lg" data-toggle="tooltip"
-                       title="Folge mir auf Twitter">
+                       title="Folge uns auf Twitter">
                         <i class="fa fa-twitter"></i>
                     </a>
                     <a target="_blank" href="https://www.facebook.com/StrainovicIT/"
                        class="btn btn-neutral btn-icon-only btn-facebook btn-round btn-lg" data-toggle="tooltip"
-                       title="Like mich auf Facebook">
+                       title="Like uns auf Facebook">
                         <i class="fa fa-facebook-square"></i>
                     </a>
                     <a target="_blank" href="https://www.instagram.com/strainovic_it/"
                        class="btn btn-neutral btn-icon-only btn-instagram btn-lg btn-round" data-toggle="tooltip"
-                       title="Folge mir auf Instagram">
+                       title="Folge uns auf Instagram">
                         <i class="fa fa-instagram"></i>
                     </a>
                     <a target="_blank" href="https://ch.linkedin.com/in/goran-strainovic"
                        class="btn btn-neutral btn-icon-only btn-linkedin btn-round btn-lg" data-toggle="tooltip"
-                       title="Folge mir auf LinkedIn">
+                       title="Folge uns auf LinkedIn">
                         <i class="fa fa-linkedin"></i>
                     </a>
                        <a target="_blank" href="https://github.com/gstrainovic"
                        class="btn btn-neutral btn-icon-only btn-github btn-round btn-lg" data-toggle="tooltip"
-                       title="Spendiere mir einen Stern auf Github">
+                       title="Spendiere uns einen Stern auf Github">
                         <i class="fa fa-github"></i>
                     </a>
                      <a target="_blank" href="https://www.xing.com/profile/Goran_Strainovic"
                        class="btn btn-neutral btn-icon-only btn-xing btn-round btn-lg" data-toggle="tooltip"
-                       title="Folge mir auf Xing">
+                       title="Folge uns auf Xing">
                         <i class="fa fa-xing"></i>
                     </a>
                 </div>

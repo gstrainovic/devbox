@@ -18,7 +18,7 @@
                     <div class="col px-0">
                         <div class="row">
                             <div class="col-lg-6">
-                                <h1 class="display-3  text-white">Unser Portfolio
+                                <h1 class="display-3  text-white">Referenzen & Portfolio
                                     <span>Webdesign</span>
                                 </h1>
                             </div>
@@ -224,7 +224,7 @@
                                             </tr>
                                             <tr>
                                               <th>Link</th>
-                                              <td><a href="https://gstrainovic.github.io/gost.pw" target="_blank">http://strainovic-it.ch</a></td>
+                                              <td><a href="https://gstrainovic.github.io/gost.pw" target="_blank">https://gstrainovic.github.io/gost.pw</a></td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -233,8 +233,8 @@
                           </div>
                             <div class="col-md-6 mb-5 mb-lg-0 mt-5">
                               <div class="card card-lift--hover shadow border-0">
-                                  <a href="https://gstrainovic.github.io/gost.pw" target="_blank">
-                                      <img v-lazy="'/portfolio-responsive-webdesign/ResponsiveWebDesign-cv.jpg'" class="card-img">
+                                  <a href="http://old-wp.strainovic-it.ch" target="_blank">
+                                      <img v-lazy="'/portfolio-responsive-webdesign/ResponsiveWebDesign-argon.jpg'" class="card-img">
                                   </a>
                                   <div class="card-body">
                                      <table class="table">
@@ -257,13 +257,14 @@
                                             </tr>
                                             <tr>
                                               <th>Link</th>
-                                              <td><a href="https://gstrainovic.github.io/gost.pw" target="_blank">http://strainovic-it.ch</a></td>
+                                              <td><a href="http://old-wp.strainovic-it.ch" target="_blank">http://old-wp.strainovic-it.ch</a></td>
                                             </tr>
                                         </tbody>
                                     </table>
                                   </div>
                               </div>
-                          </div>                      </div>
+                          </div>
+                      </div>
                   </div>
               </div>
             </div>
