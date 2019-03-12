@@ -40,7 +40,7 @@
                                   </a>
                                   <div class="card-body">
                                      <table class="table">
-                                        <tbody>
+                                        <!-- <tbody> -->
                                             <tr>
                                               <th>Projekt</th>
                                               <td>Webseite</td>
@@ -51,7 +51,7 @@
                                             </tr>
                                             <tr>
                                               <th>Firmenort</th>
-                                              <td>CH-9403 Goldach SG, Kanton St.Gallen, Schweiz</td>
+                                              <td>CH 9403 Goldach SG<br> Kanton St.Gallen<br> Schweiz</td>
                                             </tr>
                                             <tr>
                                               <th>Technologie</th>
@@ -61,7 +61,7 @@
                                               <th>Link</th>
                                               <td><a href="http://ddp-transporte.ch" target="_blank">http://ddp-transporte.ch</a></td>
                                             </tr>
-                                        </tbody>
+                                        <!-- </tbody> -->
                                     </table>
                                   </div>
                               </div>
@@ -84,7 +84,7 @@
                                             </tr>
                                             <tr>
                                               <th>Firmenort</th>
-                                              <td>CH-9323 Steinach SG, Kanton St.Gallen, Schweiz</td>
+                                              <td>CH 9323 Steinach SG<br> Kanton St.Gallen<br> Schweiz</td>
                                             </tr>
                                             <tr>
                                               <th>Technologie</th>
@@ -117,7 +117,7 @@
                                             </tr>
                                             <tr>
                                               <th>Firmenort</th>
-                                              <td>CH-9320 Gossau SG, Kanton St.Gallen, Schweiz</td>
+                                              <td>CH 9320 Gossau SG<br> Kanton St.Gallen<br> Schweiz</td>
                                             </tr>
                                             <tr>
                                               <th>Technologie</th>
@@ -150,7 +150,7 @@
                                             </tr>
                                             <tr>
                                               <th>Firmenort</th>
-                                              <td>CH-9305 Waldkirch SG, Kanton St.Gallen, Schweiz</td>
+                                              <td>CH 9305 Waldkirch SG<br> Kanton St.Gallen<br> Schweiz</td>
                                             </tr>
                                             <tr>
                                               <th>Technologie</th>
@@ -183,7 +183,7 @@
                                             </tr>
                                             <tr>
                                               <th>Firmenort</th>
-                                              <td>CH-9323 Steinach SG, Kanton St.Gallen, Schweiz</td>
+                                              <td>CH 9323 Steinach SG<br> Kanton St.Gallen<br> Schweiz</td>
                                             </tr>
                                             <tr>
                                               <th>Technologie</th>
@@ -216,7 +216,7 @@
                                             </tr>
                                             <tr>
                                               <th>Firmenort</th>
-                                              <td>CH-9323 Steinach SG, Kanton St.Gallen, Schweiz</td>
+                                              <td>CH 9323 Steinach SG<br> Kanton St.Gallen<br> Schweiz</td>
                                             </tr>
                                             <tr>
                                               <th>Technologie</th>
@@ -249,11 +249,11 @@
                                             </tr>
                                             <tr>
                                               <th>Firmenort</th>
-                                              <td>CH-9323 Steinach SG, Kanton St.Gallen, Schweiz</td>
+                                              <td>CH 9323 Steinach SG<br> Kanton St.Gallen<br> Schweiz</td>
                                             </tr>
                                             <tr>
                                               <th>Technologie</th>
-                                              <td>Vue, Nuxt, Argon, Bootstrap</td>
+                                              <td>Vue<br> Nuxt<br> Argon<br> Bootstrap</td>
                                             </tr>
                                             <tr>
                                               <th>Link</th>
@@ -287,5 +287,13 @@ export default {
 .section-shaped .shape.shape-skew + .shape-container {
     padding-top: 14rem;
     padding-bottom: 15rem;
+}
+.table {
+  font-size: 2.3vmin;
+}
+@media only screen and (max-width: 765px) {
+  .table {
+    font-size: 3vmin;
+  }
 }
 </style>
