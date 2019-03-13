@@ -137,10 +137,20 @@
         </section>
         <section class="section section-lg">
             <div class="container">
-                <div class="row row-grid ">
-                    <div class="col-md-4 order-md-2 m-auto text-center">
-                        <VueFriendlyIframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDUUYNFXEhy1raQAPrhYCdSCttMLgMsxls      &q=Strainovic IT" allowfullscreen @load="onLoad" @document-load="onDocumentLoad"></VueFriendlyIframe>
-                        <!-- <img src="/argon/img/theme/promo-1.png" class="img-fluid floating"> -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="pr-md-6">
+                           <h2 class="display-5">Kommen Sie auf ein Beratungsgespräch vorbei</h2>
+                           <p class="lead">
+                           Ich freue mich Sie persönlich kennenzulernen.<br>
+                           Gerne komme ich für 1chf/km auch zu Ihnen.<br>
+                           Vereinbaren Sie noch heute einen Termin.<br>
+                           </p>
+                        </div>
+                   </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
                         <p>
                           <br>
                           Strainovic IT<br>
@@ -152,16 +162,10 @@
                           <a href='mailto:info@strainovic-it.ch'>info@strainovic-it.ch</a>
                         </p>
                     </div>
-                    <div class="col-md-6 order-md-1">
-                        <div class="pr-md-5">
-                           <h2 class="display-5">Kommen Sie auf ein Beratungsgespräch vorbei</h2>
-                           <p class="lead">
-                           Ich freue mich Sie persönlich kennenzulernen.<br>
-                           Gerne komme ich für 1chf/km auch zu Ihnen.<br>
-                           Vereinbaren Sie noch heute einen Termin.<br>
-                           </p>
-                        </div>
-                   </div>
+                    <div class="col-md-3 mt-5">
+                        <VueFriendlyIframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDUUYNFXEhy1raQAPrhYCdSCttMLgMsxls      &q=Strainovic IT" allowfullscreen @load="onLoad" @document-load="onDocumentLoad"></VueFriendlyIframe>
+                        <!-- <img src="/argon/img/theme/promo-1.png" class="img-fluid floating"> -->
+                    </div>
                  </div>
              </div>
         </section>
