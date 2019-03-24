@@ -78,19 +78,13 @@
                           <li>React</li>
                           <li>Vue</li>
                         </ul>
-                        <li>Hosting & Domains bei z. B:</li>
-                        <ul>
-                          <li>Hostpoint in der Schweiz</li>
-                          <li>Amazon Web Service (AWS) in Frankfurt</li>
-                        </ul>
-                      <br>
                     </ul>
                   </div>
                   <div class="col">
                     <ul>
                       <h4>Mobile & Tablet</h4>
                       <li>Apps für Android Smartphones</li>
-                      <li>Apps für iOS, iPhone, Apple</li>
+                      <li>Apps für iOS,iPad, iPhone, Apple</li>
                       <br>
                       <h4>Desktop & Server</h4>
                       <li>Betriebssysteme wie z. B:</li>
@@ -135,6 +129,8 @@
                       <li>Chatbot</li>
                      </ul>
                   </div>
+                  </div>
+                <div class="row">
                   <div class="col">
                     <ul>
                       <h4>Daten</h4>
@@ -191,16 +187,9 @@
                   <h4 class="display-4 mt-5 ">Social Media Marketing - SMM</h4>
                   <h5 class="display-5 mt-4 ">Deutsche Reiseagentur</h5>
                   <h6 class="display-6 mt-3 ">Ziel</h6>
-                  <p>Neue Kunden mit täglichen Posts anlocken</p>
+                  <p>Neue Kunden mit täglichen Posts inspirieren</p>
                   <h6 class="display-6 mt-3 ">Technologien</h6>
                   <p>Facebook</p>
-
-                  <h4 class="display-4 mt-5 ">Webdesign und Programmierung</h4>
-                  <h5 class="display-5 mt-4 ">Persisches Restaurant in Deutschland</h5>
-                  <h6 class="display-6 mt-3 ">Ziel</h6>
-                  <p>Onlineshop - Lieferservice von persischen und internationalen Gerichten</p>
-                  <h6 class="display-6 mt-3 ">Technologien</h6>
-                  <p>WordPress</p>
 
                 </div>
               </div>
@@ -227,7 +216,7 @@
                 <div class="row mb-5">
                     <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
                         <div class="px-4">
-                            <img v-lazy="'/goran.jpg'"
+                            <img v-lazy="'/goran-strainovic.jpg'"
                                  class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
                                  style="width: 250px;">
                        </div>
@@ -370,20 +359,20 @@
                   <p>Wegfall von manuellen Eintragungen in Excel.<br>
                   Interaktion mit Excel und Testprogramm.</p>
                   <h6 class="display-6 mt-3 text-white">Technologien</h6>
-                  <p>Autoit und VBA</p>
+                  <p>AutoIT und VBA</p>
 
                   <h5 class="display-5 mt-4 text-white">Technische Abteilung, VS</h5>
                   <h6 class="display-6 mt-3 text-white">Ziel</h6>
                   <p>Wegfall von manuellen Eintragungen in Excel, Outlook, Aegis, Clipboard, SAP.</p>
                   <h6 class="display-6 mt-3 text-white">Technologien</h6>
-                  <p>FSharp, Autoit und VBA</p>
+                  <p>FSharp, AutoIT und VBA</p>
 
                   <h5 class="display-5 mt-4 text-white">Strainovic IT</h5>
                   <h6 class="display-6 mt-3 text-white">Ziel</h6>
                   <p>Durchforster einer Webseiten und ausfüllen von Formularfeldern.
                   Erstellt mit FSharp, Fsharp.Data ,Docker ,Canopy auf Google Cloud Plattform.</p>
                   <h6 class="display-6 mt-3 text-white">Technologien</h6>
-                  <p>FSharp, Autoit und VBA</p>
+                  <p>FSharp, AutoIT und VBA</p>
 
                   <h4 class="display-4 mt-5 text-white">Design von Printmedien</h4>
                   <h5 class="display-5 mt-4 text-white">Strainovic IT</h5>

@@ -36,7 +36,7 @@
                           <div class="col-md-6 mb-5 mb-md-0 mt-5">
                               <div class="card card-lift--hover shadow">
                                   <a href="http://ddp-transporte.ch" target="_blank">
-                                      <img v-lazy="'/portfolio-responsive-webdesign/ResponsiveWebDesign-ddp.jpg'" class="card-img-top">
+                                      <img v-lazy="'/img/portfolio-responsive-webdesign/ResponsiveWebDesign-ddp.jpg'" class="card-img-top">
                                   </a>
                                   <div class="card-body">
                                      <table class="table">
@@ -69,7 +69,7 @@
                           <div class="col-md-6 mb-5 mb-lg-0 mt-5">
                               <div class="card card-lift--hover shadow border-0">
                                   <a href="http://buegeln.services" target="_blank">
-                                      <img v-lazy="'/portfolio-responsive-webdesign/ResponsiveWebDesign-bs.jpg'" class="card-img">
+                                      <img v-lazy="'/img/portfolio-responsive-webdesign/ResponsiveWebDesign-bs.jpg'" class="card-img">
                                   </a>
                                   <div class="card-body">
                                      <table class="table">
@@ -102,7 +102,7 @@
                           <div class="col-md-6 mb-5 mb-lg-0 mt-5">
                               <div class="card card-lift--hover shadow border-0">
                                   <a href="http://grav.gost.pw/mijajlovic.ch" target="_blank">
-                                      <img v-lazy="'/portfolio-responsive-webdesign/ResponsiveWebDesign-mij.jpg'" class="card-img">
+                                      <img v-lazy="'/img/portfolio-responsive-webdesign/ResponsiveWebDesign-mij.jpg'" class="card-img">
                                   </a>
                                   <div class="card-body">
                                      <table class="table">
@@ -135,7 +135,7 @@
                           <div class="col-md-6 mb-5 mb-lg-0 mt-5">
                               <div class="card card-lift--hover shadow border-0">
                                   <a href="http://grav.gost.pw/susanne" target="_blank">
-                                      <img v-lazy="'/portfolio-responsive-webdesign/ResponsiveWebDesign-sb.jpg'" class="card-img">
+                                      <img v-lazy="'/img/portfolio-responsive-webdesign/ResponsiveWebDesign-sb.jpg'" class="card-img">
                                   </a>
                                  <div class="card-body">
                                      <table class="table">
@@ -168,7 +168,7 @@
                           <div class="col-md-6 mb-5 mb-lg-0 mt-5">
                               <div class="card card-lift--hover shadow border-0">
                                   <a href="http://old-wp.strainovic-it.ch" target="_blank">
-                                      <img v-lazy="'/portfolio-responsive-webdesign/ResponsiveWebDesign-sit.jpg'" class="card-img">
+                                      <img v-lazy="'/img/portfolio-responsive-webdesign/ResponsiveWebDesign-sit.jpg'" class="card-img">
                                   </a>
                                   <div class="card-body">
                                      <table class="table">
@@ -201,7 +201,7 @@
                           <div class="col-md-6 mb-5 mb-lg-0 mt-5">
                               <div class="card card-lift--hover shadow border-0">
                                   <a href="http://gstrainovic.github.io/gost.pw" target="_blank">
-                                      <img v-lazy="'/portfolio-responsive-webdesign/ResponsiveWebDesign-cv.jpg'" class="card-img">
+                                      <img v-lazy="'/img/portfolio-responsive-webdesign/ResponsiveWebDesign-cv.jpg'" class="card-img">
                                   </a>
                                   <div class="card-body">
                                      <table class="table">
@@ -234,7 +234,7 @@
                             <div class="col-md-6 mb-5 mb-lg-0 mt-5">
                               <div class="card card-lift--hover shadow border-0">
                                   <a href="http://strainovic-it.ch" target="_blank">
-                                      <img v-lazy="'/portfolio-responsive-webdesign/ResponsiveWebDesign-argon.jpg'" class="card-img">
+                                      <img v-lazy="'/img/portfolio-responsive-webdesign/ResponsiveWebDesign-argon.jpg'" class="card-img">
                                   </a>
                                   <div class="card-body">
                                      <table class="table">
@@ -249,11 +249,11 @@
                                             </tr>
                                             <tr>
                                               <th>Firmenort</th>
-                                              <td>CH 9323 Steinach SG<br> Kanton St.Gallen<br> Schweiz</td>
+                                              <td>CH 9323 Steinach SG<br>Kanton St.Gallen<br>Schweiz</td>
                                             </tr>
                                             <tr>
                                               <th>Technologie</th>
-                                              <td>Vue<br> Nuxt<br> Argon<br> Bootstrap</td>
+                                              <td>Vue & Nuxt<br>Argon & Bootstrap</td>
                                             </tr>
                                             <tr>
                                               <th>Link</th>
@@ -263,10 +263,11 @@
                                     </table>
                                   </div>
                               </div>
-                              <div class="col-md-6 mb-5 mb-lg-0 mt-5">
+                            </div>
+                            <div class="col-md-6 mb-5 mb-lg-0 mt-5">
                               <div class="card card-lift--hover shadow border-0">
-                                  <a href="http://strainovic-it.ch" target="_blank">
-                                      <img v-lazy="'/portfolio-responsive-webdesign/ResponsiveWebDesign-argon.jpg'" class="card-img">
+                                  <a href="http://monsenso.com" target="_blank">
+                                      <img v-lazy="'/img/portfolio-responsive-webdesign/ResponsiveWebDesign-monsenso.jpg'" class="card-img">
                                   </a>
                                   <div class="card-body">
                                      <table class="table">
@@ -277,25 +278,58 @@
                                             </tr>
                                             <tr>
                                               <th>Branche</th>
-                                              <td>IT Dienstleistungen</td>
+                                              <td>Medtech</td>
                                             </tr>
                                             <tr>
                                               <th>Firmenort</th>
-                                              <td>CH 9323 Steinach SG<br> Kanton St.Gallen<br> Schweiz</td>
+                                              <td>DK 2100 Kopenhagen<br>Dänemark<br></td>
                                             </tr>
                                             <tr>
                                               <th>Technologie</th>
-                                              <td>Vue<br> Nuxt<br> Argon<br> Bootstrap</td>
+                                              <td>WordPress<br>Divi</td>
                                             </tr>
                                             <tr>
                                               <th>Link</th>
-                                              <td><a href="http://strainovic-it.ch" target="_blank">http://strainovic-it.ch</a></td>
+                                              <td><a href="http://monsenso.com" target="_blank">http://monsenso.com</a></td>
                                             </tr>
                                         </tbody>
                                     </table>
                                   </div>
                               </div>
-                          </div>                          </div>
+                          </div>
+                          <div class="col-md-6 mb-5 mb-lg-0 mt-5">
+                              <div class="card card-lift--hover shadow border-0">
+                                  <!-- <a href="http://monsenso.com" target="_blank"> -->
+                                      <img v-lazy="'/img/portfolio-responsive-webdesign/ResponsiveWebDesign-mpf.jpg'" class="card-img">
+                                  <!-- </a> -->
+                                  <div class="card-body">
+                                     <table class="table">
+                                        <tbody>
+                                            <tr>
+                                              <th>Projekt</th>
+                                              <td>Webshop für Lieferservice</td>
+                                            </tr>
+                                            <tr>
+                                              <th>Branche</th>
+                                              <td>Persisches Restaurant</td>
+                                            </tr>
+                                            <tr>
+                                              <th>Firmenort</th>
+                                              <td>Deutschland</td>
+                                            </tr>
+                                            <tr>
+                                              <th>Technologie</th>
+                                              <td>WordPress</td>
+                                            </tr>
+                                            <tr>
+                                              <th>Link</th>
+                                              <td>Offline</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                  </div>
+                              </div>
+                          </div>
                       </div>
                   </div>
               </div>

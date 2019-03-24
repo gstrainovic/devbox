@@ -143,7 +143,6 @@
                            <h2 class="display-5">Kommen Sie auf ein Beratungsgespräch vorbei</h2>
                            <p class="lead">
                            Ich freue mich Sie persönlich kennenzulernen.<br>
-                           Gerne komme ich für 1chf/km auch zu Ihnen.<br>
                            Vereinbaren Sie noch heute einen Termin.<br>
                            </p>
                         </div>
