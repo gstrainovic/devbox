@@ -9,10 +9,9 @@
                 <div class="container shape-container d-flex">
                     <div class="col px-0">
                         <div class="row">
-                            <div class="col-lg-8">
+                            <div class="col-lg-7">
                                 <h1 class="display-4 text-white">Webdesign, Programmierung & Marketing
-                                    <span class="mt-2">Software, Homepage & Webseite erstellen lassen,
-                                    Produkte und Dienstleistungen vermarkten.</span>
+                                    <span class="mt-2">Software, Homepage & Webseite erstellen und vermarkten lassen.</span>
                                 </h1>
                             </div>
                         </div>

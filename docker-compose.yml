@@ -47,7 +47,7 @@ services:
       - "3000:3000"
     volumes:
       - ./argon:/src:cached
-    command: sh -c "yarn install --force && yarn run dev"
+    command: sh -c "yarn install && yarn run dev"
     networks:
       - web
       - internal
@@ -55,50 +55,49 @@ services:
       - "traefik.frontend.rule=Host:argon.gost.pw"
       - "traefik.port=3000"
  
-  api:
-    container_name: strapi
-    build: .
-    image: strapi/strapi
-    environment:
-      - APP_NAME=strapi-app
-      - DATABASE_CLIENT=mongo
-      - DATABASE_HOST=db
-      - DATABASE_PORT=27017
-      - DATABASE_NAME=strapi
-      - DATABASE_USERNAME=
-      - DATABASE_PASSWORD=
-      - DATABASE_SSL=false
-      - DATABASE_AUTHENTICATION_DATABASE=strapi
-      - HOST=0.0.0.0
-    ports:
-      - 1337:1337
-    volumes:
-      - ./strapi-app:/usr/src/api/strapi-app
-      #- /usr/src/api/strapi-app/node_modules
-    depends_on:
-      - db
-    restart: always
-    networks:
-      - internal
-      - web
-    labels:
-      - "traefik.frontend.rule=Host:strapi.gost.pw"
-      - "traefik.port=1337"
-    depends_on:
-      - db
-
-  db:
-    container_name: mongo
-    image: mongo
-    environment:
-      - MONGO_INITDB_DATABASE=strapi
-    ports:
-      - 27017:27017
-    volumes:
-      - ./db:/data/db
-    restart: always
-    networks:
-      - internal
+  # api:
+    # container_name: strapi
+    # build: .
+    # image: strapi/strapi
+    # environment:
+      # - APP_NAME=strapi-app
+      # - DATABASE_CLIENT=mongo
+      # - DATABASE_HOST=db
+      # - DATABASE_PORT=27017
+      # - DATABASE_NAME=strapi
+      # - DATABASE_USERNAME=
+      # - DATABASE_PASSWORD=
+      # - DATABASE_SSL=false
+      # - DATABASE_AUTHENTICATION_DATABASE=strapi
+      # - HOST=0.0.0.0
+    # ports:
+      # - 1337:1337
+    # volumes:
+      # - ./strapi-app:/usr/src/api/strapi-app
+    # depends_on:
+      # - db
+    # restart: always
+    # networks:
+      # - internal
+      # - web
+    # labels:
+      # - "traefik.frontend.rule=Host:strapi.gost.pw"
+      # - "traefik.port=1337"
+    # depends_on:
+      # - db
+#
+  # db:
+    # container_name: mongo
+    # image: mongo
+    # environment:
+      # - MONGO_INITDB_DATABASE=strapi
+    # ports:
+      # - 27017:27017
+    # volumes:
+      # - ./db:/data/db
+    # restart: always
+    # networks:
+      # - internal
 
 networks:
   web:

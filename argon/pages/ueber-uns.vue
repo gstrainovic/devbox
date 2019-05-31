@@ -28,7 +28,7 @@
         </div>
         <section class="section">
             <div class="container">
-                <div class="row mb-lg">
+                <div class="row mb-5">
                     <div class="col-lg-8">
                         <h2 class="display-3">Über Strainovic IT</h2>
                         <h3 class="lead">Strainovic IT wurde 2016 gegründet, befindet sich in Steinach im Kanton St.Gallen SG an der Ostschweiz am Bodensee, und bietet alle digitale Dienstleistungen
@@ -50,6 +50,8 @@
                         </h3>
                     </div>
                 </div>
+                <!-- </div> -->
+            <!-- <div class="container"> -->
                 <div class="row">
                   <div class="col">
                     <ul>
@@ -80,7 +82,7 @@
                         </ul>
                     </ul>
                   </div>
-                  <div class="col">
+                  <div class="col-lg-6 text-left">
                     <ul>
                       <h4>Mobile & Tablet</h4>
                       <li>Apps für Android Smartphones</li>
@@ -98,8 +100,9 @@
                     </ul>
                   </div>
                 </div>
-                <div class="row">
-                  <div class="col">
+                <div class="row text-left">
+                  <div class="col-lg-6">
+                    <ul>
                       <h4>Grafik</h4>
                       <li>Logo</li>
                       <li>Flyer</li>
@@ -113,8 +116,10 @@
                       <li>Hosting auf eigenen Server</li>
                       <li>Hosting auf Youtube (kostenlos mit Werbung)</li>
                       <li>Hosting auf Vimeo (kostenpflichtig ohne Werbung)</li>
+                    </ul>
                   </div>
                   <div class="col">
+                    <ul>
                       <h4>Google</h4>
                       <li>Google SEO</li>
                       <li>Google AdWords</li>
@@ -205,74 +210,40 @@
                 <span></span>
             </div>
             <div class="container pt-lg pb-100">
-                <div class="row mb-lg">
-                    <div class="col-lg-8">
-                      <h2 class="display-3 text-white">Über den Gründer,<br>Goran Strainovic</h2>
-                        <p class="lead text-white ">Was nicht passt, wird passend gemacht.<br>
-                        Ich bin ein Perfektionist mit vielen Fähigkeiten,
-                        der durch Kreativität und Ausdauer Herausforderungen meistert und Ziele erreicht.</p>
-                    </div>
+                <div class="row">
+                  <h2 class="display-3 text-white">Über Goran Strainovic</h2>
                 </div>
-                <div class="row mb-5">
-                    <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
-                        <div class="px-4">
-                            <img v-lazy="'/goran-strainovic.jpg'"
-                                 class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                                 style="width: 250px;">
-                       </div>
+                <div class="row">
+                  <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+                    <div class="px-4">
+                        <img v-lazy="'img/goran-strainovic.jpg'"
+                             class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
+                             style="width: 250px;">
                     </div>
-                    <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
-                        <div class="px-4">
+                   </div>
+                </div>
+                <div class="row">
+                    <blockquote class="blockquote lead text-white">
+                      <p class="mb-0">Was nicht passt, wird passend gemacht.<br>
+                      Ich bin ein Perfektionist mit vielen Fähigkeiten,<br>
+                        der durch Kreativität und Ausdauer Herausforderungen meistert und Ziele erreicht.</p>
+    <footer class="blockquote-footer text-white">Goran Strainovic /
+      <cite title="Source Title te">Gründer von Strainovic IT</cite>
+    </footer>
+</blockquote>
+</div>
+<div class="row">
                             <div class="pt-4 align-items-center">
-                                <!-- <h5 class="title"> -->
                                     <ul class="align-items-center text-white">
                                       <li> <small class="h6 text-white">Gründer</small></li>
-                                      <li> <small class="h6 text-white">Developer & Programmierer</small></li>
+                                      <li> <small class="h6 text-white">Programmierer</small></li>
                                       <li> <small class="h6 text-white">Designer</small></li>
                                       <li> <small class="h6 text-white">Projekt Manager</small></li>
                                     </ul>
-                                <!-- </h5> -->
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-md-8 col-lg-3 mb-5 mb-lg-0">
-                        <div class="px-3">
-                            <div class="pt-4 align-items-center">
-                                <!-- <h5 class="title"> -->
-                                    <ul class="">
-                                       <small class="h6 text-white">
-                                        Goran Strainovic<br>
-                                        Bahnstrasse 9b<br>
-                                        CH 9323 Steinach<br>
-                                        Kanton St.Gallen SG<br>
-                                        +41 79 411 71 77<br>
-                                        <a href='mailto:info@strainovic-it.ch'>info@strainovic-it.ch</a></small>
-                                    </ul>
-                                <!-- </h5> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-8 col-lg-3 mb-5 mb-lg-0">
-                        <div class="px-3">
-                            <div class="pt-4 align-items-center">
-                                     <table class="table text-white" >
-                                            <tr>
-                                              <th>Geburtsdatum</th>
-                                              <td>18.11.81</td>
-                                            </tr>
-                                            <tr>
-                                              <th>Eigenes Auto</th>
-                                              <td>Ja, Kat. B</td>
-                                            </tr>
-                                            <tr>
-                                              <th>Nationalität</th>
-                                              <td>Schweizer</td>
-                                            </tr>
-                                    </table>
-                            </div>
-                        </div>
-                    </div>
-                <!-- </div> -->
+
+
+
               <div class="row mb-5 text-white">
                 <div class="col-lg-12">
                   <h3 class="display-3 mt-5 text-white">Meine Skills</h3>
@@ -310,7 +281,9 @@
                       <li>PHP</li>
                     </ul>
                   </div>
-                  <div class="col">
+                </div>
+                <div class="row mt-5 text-white">
+                  <div class="col mt-1">
                     <ul>
                       <h4 class="text-white">Plattformen</h4>
                       <!-- <h5>Konfigurieren</h5> -->
@@ -322,7 +295,7 @@
                       <li>Strapi - Headless CMS</li>
                     </ul>
                   </div>
-                  <div class="col">
+                  <div class="col mt-1">
                     <ul>
                       <h4 class="text-white">Programme</h4>
                       <!-- <h5>Installieren, Erweitern, Programmieren, Konfigurieren, Warten</h5> -->

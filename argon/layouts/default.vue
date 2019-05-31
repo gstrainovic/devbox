@@ -21,8 +21,9 @@
                         <span class="nav-link-inner--text">Dienstleistungen</span>
                     </a>
                     <nuxt-link to=/# class="dropdown-item">Alles aus einer Hand</nuxt-link>
-                    <nuxt-link to=/# class="dropdown-item">Web</nuxt-link>
                     <nuxt-link to=#software class="dropdown-item">Software</nuxt-link>
+                    <nuxt-link to=/# class="dropdown-item">Web</nuxt-link>
+                    <nuxt-link to=#software class="dropdown-item">Marketing</nuxt-link>
                </base-dropdown>
                <base-dropdown tag="li" class="nav-item">
                     <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
