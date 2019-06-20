@@ -20,7 +20,7 @@
             <BaseDropdown tag="li" class="nav-item">
               <a
                 slot="title"
-                href="/#"
+                href="##"
                 class="nav-link"
                 data-toggle="dropdown"
                 role="button"
@@ -40,7 +40,7 @@
             <BaseDropdown tag="li" class="nav-item">
               <a
                 slot="title"
-                href="/ueber/#uns"
+                href="/ueber/##"
                 class="nav-link"
                 data-toggle="dropdown"
                 role="button"
@@ -58,7 +58,7 @@
             <BaseDropdown tag="li" class="nav-item">
               <a
                 slot="title"
-                href="#"
+                href="##"
                 class="nav-link"
                 data-toggle="dropdown"
                 role="button"
@@ -71,12 +71,11 @@
                 >Diverse Projekte</a
               >
             </BaseDropdown>
-            <li class="nav-item">
-              <a class="nav-link nav-link-icon" href="#kontakt">
-                <i class="ni ni-email-83"></i>
-                <span class="nav-link-inner--text">Kontakt</span>
-              </a>
-            </li>
+
+            <a class="nav-link" href="#kontakt">
+              <i class="ni ni-email-83"></i>
+              <span class="nav-link-inner--text">Kontakt</span>
+            </a>
           </ul>
         </BaseNav>
       </header>
@@ -95,7 +94,7 @@
         <div class="row">
           <div class="col-lg-10">
             <h2 class="display-3 text-white">
-              Wir freuen uns auf Ihre Nachricht!
+              Wir freuen uns auf Ihre Kontaktaufnahme!
             </h2>
             <div class="row">
               <div class="col-md-3 lead text-white">

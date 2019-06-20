@@ -1,30 +1,37 @@
 const pkg = require('./package')
 
-
 module.exports = {
   mode: 'universal',
 
   /*
-  ** Headers of the page
-  */
+   ** Headers of the page
+   */
   head: {
     title: pkg.name,
     meta: [
       { charset: 'utf-8' },
       { name: 'X-UA-Compatible', content: 'IE=edge' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1.0, maximum-scale=1.5, user-scalable=1, shrink-to-fit=no' },
+      {
+        name: 'viewport',
+        content:
+          'width=device-width, initial-scale=1.0, maximum-scale=1.5, user-scalable=1, shrink-to-fit=no'
+      },
       { hid: 'description', name: 'description', content: pkg.description },
       { name: 'author', content: 'Creative Tim, Cristi Jora' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' }
+      {
+        rel: 'stylesheet',
+        href:
+          'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700'
+      }
     ]
   },
 
   /*
-  ** Customize the progress-bar color
-  */
+   ** Customize the progress-bar color
+   */
   loading: { color: '#fff' },
 
   transition: {
@@ -34,8 +41,8 @@ module.exports = {
   },
 
   /*
-  ** Global CSS
-  */
+   ** Global CSS
+   */
   css: [
     '~assets/argon/vendor/nucleo/css/nucleo.css',
     '~assets/argon/vendor/font-awesome/css/font-awesome.css',
@@ -44,15 +51,13 @@ module.exports = {
   ],
 
   /*
-  ** Plugins to load before mounting the App
-  */
-  plugins: [
-    '~/plugins/argon/argon-kit'
-  ],
+   ** Plugins to load before mounting the App
+   */
+  plugins: ['~/plugins/argon/argon-kit'],
 
   /*
-  ** Nuxt.js modules
-  */
+   ** Nuxt.js modules
+   */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
@@ -66,21 +71,19 @@ module.exports = {
     '@nuxtjs/pwa'
   ],
   /*
-  ** Axios module configuration
-  */
+   ** Axios module configuration
+   */
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
   },
 
   /*
-  ** Build configuration
-  */
+   ** Build configuration
+   */
   build: {
     /*
-    ** You can extend webpack config here
-    */
-    extend(config, ctx) {
-
-    }
+     ** You can extend webpack config here
+     */
+    extend(config, ctx) {}
   }
 }

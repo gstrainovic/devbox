@@ -663,6 +663,10 @@ export default {
 </script>
 
 <style>
+a {
+  font-size: 1.6vh;
+}
+
 .section-shaped .shape.shape-skew + .shape-container {
   padding-top: 14rem;
   padding-bottom: 15rem;
