@@ -27,7 +27,8 @@
                        <h2 class="display-5">Alle IT Dienstleistungen für Private, Startup, KMU, GmbH, AG oder Einzelfirma aus einer Hand.</h2>
                      </div>
                  </div>
-               </div> <div class="row mt-5 mb-4">
+               </div> 
+                <div class="row mt-5 mb-4" id="was-wir-tun">
                     <div class="col-md-6 order-md-1">
                         <div class="pr-md-5">
                            <h6 class="display-2">Was wir tun</h6>
@@ -178,7 +179,7 @@
                     <div class="col-lg-6">
                         <!-- <icon name="ni ni-settings" size="lg" gradient="white" shadow round color="primary"></icon> -->
                         <h4 class="text-white mt-3">Plugins</h4>
-                        <p class="text-white mt-3">Wir erweitern Ihre bestende Software durch erweitern, kombinieren oder neuprogrammieren von Plugins, Module und Erweierungen</p>
+                        <p class="text-white mt-3">Wir erweitern Ihre bestende Software durch kombinieren oder neuprogrammieren von Plugins, Module und Erweierungen</p>
                     </div>
                     <div class="col-lg-6">
                         <!-- <icon name="ni ni-ruler-pencil" size="lg" gradient="white" shadow round color="primary"></icon> -->

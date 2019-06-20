@@ -16,28 +16,26 @@
             <ul class="navbar-nav navbar-nav-hover align-items-lg-center ml-lg-auto">
             <!-- <ul class="navbar-nav navbar-nav-hover align-items-lg-center ml-lg-auto"> -->
                <base-dropdown tag="li" class="nav-item">
-                    <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
+                    <a slot="title" href="./#" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="ni ni-spaceship"></i>
                         <span class="nav-link-inner--text">Dienstleistungen</span>
                     </a>
-                    <a href="#" class="dropdown-item">Was wir tun</a>
-                    <a href="#software-und-apps" class="dropdown-item">Software & Apps</a>
-                    <a href="#webdesign-und-programmierung" class="dropdown-item">Webdesign & Programmierung</a>
-                    <a href="#marketing" class="dropdown-item">Marketing</a>
+                    <a href="/#was-wir-tun" class="dropdown-item">Was wir tun</a>
+                    <a href="/#software-und-apps" class="dropdown-item">Software & Apps</a>
+                    <a href="/#webdesign-und-programmierung" class="dropdown-item">Webdesign & Programmierung</a>
+                    <a href="/#marketing" class="dropdown-item">Marketing</a>
 
                </base-dropdown>
                <base-dropdown tag="li" class="nav-item">
-                    <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
+                    <a slot="title" href="/ueber/#uns" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="ni ni-single-02"></i>
                         <span class="nav-link-inner--text">Über uns</span>
                     </a>
-                    <nuxt-link :to="{name: 'argon-demo-landing'}" class="dropdown-item">Über Strainovic IT</nuxt-link>
-                    <div class="dropdown-divider"></div>
-                    <nuxt-link :to="{name: 'argon-demo-landing'}" class="dropdown-item">Über Goran Strainovic</nuxt-link>
-                    <nuxt-link :to="{name: 'argon-demo-landing'}" class="dropdown-item">Personalien</nuxt-link>
-                    <nuxt-link :to="{name: 'argon-demo-profile'}" class="dropdown-item">Skills</nuxt-link>
-                    <nuxt-link :to="{name: 'argon-demo-login'}" class="dropdown-item">Ausbildung</nuxt-link>
-                    <nuxt-link :to="{name: 'argon-demo-register'}" class="dropdown-item">Jobs</nuxt-link>
+                    <a href="/ueber/#strainovic-it" class="dropdown-item">Über Strainovic IT</a>
+                    <a href="/ueber/#goran-strainovic" class="dropdown-item">Über Goran Strainovic</a>
+
+
+
                 </base-dropdown>
                <base-dropdown tag="li" class="nav-item">
                     <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
@@ -45,16 +43,7 @@
                         <span class="nav-link-inner--text">Portfolio</span>
                     </a>
                         <nuxt-link to=/portfolio/web class="dropdown-item">Webseiten</nuxt-link>
-                        <nuxt-link :to="{name: 'argon-demo-profile'}" class="dropdown-item">Diverse</nuxt-link>
-                </base-dropdown>
-               <base-dropdown tag="li" class="nav-item mr-lg-n3">
-                    <a slot="title" href="#kontakt" class="nav-link" data-toggle="dropdown" role="button">
-                        <i class="ni ni-email-83"></i>
-                        <span class="nav-link-inner--text">Kontakt</span>
-                    </a>
-                        <nuxt-link :to="{name: 'argon-demo-landing'}" class="dropdown-item">Kontaktformular</nuxt-link>
-                        <nuxt-link :to="{name: 'argon-demo-profile'}" class="dropdown-item">Konktaktdaten</nuxt-link>
-                        <nuxt-link :to="{name: 'argon-demo-profile'}" class="dropdown-item">Karte</nuxt-link>
+                        <nuxt-link to=/portfolio/diverse-projekte class="dropdown-item">Diverse Projekte</nuxt-link>
                 </base-dropdown>
                         <li class="nav-item">
             <a class="nav-link nav-link-icon" href="#kontakt">

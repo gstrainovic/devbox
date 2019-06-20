@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="position-relative">
+        <div class="position-relative" id="uns">
             <!-- shape Hero -->
             <section class="section-shaped my-0">
                 <div class="shape shape-style-1 shape-default shape-skew">
@@ -26,7 +26,7 @@
             </section>
             <!-- 1st Hero Variation -->
         </div>
-        <section class="section">
+        <section class="section" id="strainovic-it">
             <div class="container">
                 <div class="row mb-5">
                     <div class="col-lg-8">
@@ -159,49 +159,11 @@
                         </h3>
                     </div>
                 </div>
-              <div class="row mb-5 ">
-                <div class="col-lg-12">
-                  <h3 class="display-3 ">Von Strainovic IT umgesetzte Projekte</h3>
-                  <h4 class="display-4 mt-5 ">Plugin</h4>
-                  <h5 class="display-5 mt-4 ">Österreichischer Hardwarehersteller</h5>
-                  <h6 class="display-6 mt-3 ">Ziel</h6>
-                  <p>Ticketplugin für Jira - Projektmanagmentsoftware</p>
-                  <h6 class="display-6 mt-3 ">Technologien</h6>
-                  <p>Jira, Java</p>
 
-                  <h4 class="display-4 mt-5 ">Design</h4>
-                  <h5 class="display-5 mt-4 ">Deutscher Tee Verkäufer in Amazon</h5>
-                  <h6 class="display-6 mt-3 ">Ziel</h6>
-                  <p>Mockups für Tee Verpackungen</p>
-                  <h6 class="display-6 mt-3 ">Technologien</h6>
-                  <p>Photoshop</p>
-
-                  <h5 class="display-5 mt-4 ">Für schweizer Taxigeselschaften</h5>
-                  <h6 class="display-6 mt-3 ">Ziel</h6>
-                  <p>Redesign eines Taximeter App für Android</p>
-                  <h6 class="display-6 mt-3 ">Technologien</h6>
-                  <p>Photoshop (PSD), Android Studio Layout Editor (XMl)</p>
-
-                  <h4 class="display-4 mt-5 ">Ghostwriting</h4>
-                  <h5 class="display-5 mt-4 ">Deutsche E-Books</h5>
-                  <h6 class="display-6 mt-3 ">Ziel</h6>
-                  <p>Ghostwriting / Zusammenfassungen und Formatierungen</p>
-                  <h6 class="display-6 mt-3 ">Technologien</h6>
-                  <p>Microsoft Word</p>
-
-                  <h4 class="display-4 mt-5 ">Social Media Marketing - SMM</h4>
-                  <h5 class="display-5 mt-4 ">Deutsche Reiseagentur</h5>
-                  <h6 class="display-6 mt-3 ">Ziel</h6>
-                  <p>Neue Kunden mit täglichen Posts inspirieren</p>
-                  <h6 class="display-6 mt-3 ">Technologien</h6>
-                  <p>Facebook</p>
-
-                </div>
-              </div>
             </div>
         </section>
-        <section class="section section section-shaped my-0 overflow-hidden" id="software">
-            <div class="shape shape-style-1 bg-gradient-warning shape-skew">
+        <section class="section section section-shaped my-0 overflow-hidden" id="goran-strainovic">
+            <div class="shape shape-style-1 bg-gradient-info shape-skew">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -221,6 +183,14 @@
                              style="width: 250px;">
                     </div>
                    </div>
+                                               <div class="pt-4 align-items-center">
+                                    <ul class="align-items-center text-white">
+                                      <li> <small class="h6 text-white">Gründer</small></li>
+                                      <li> <small class="h6 text-white">Programmierer</small></li>
+                                      <li> <small class="h6 text-white">Designer</small></li>
+                                      <li> <small class="h6 text-white">Projekt Manager</small></li>
+                                    </ul>
+                            </div>
                 </div>
                 <div class="row">
                     <blockquote class="blockquote lead text-white">
@@ -233,14 +203,7 @@
 </blockquote>
 </div>
 <div class="row">
-                            <div class="pt-4 align-items-center">
-                                    <ul class="align-items-center text-white">
-                                      <li> <small class="h6 text-white">Gründer</small></li>
-                                      <li> <small class="h6 text-white">Programmierer</small></li>
-                                      <li> <small class="h6 text-white">Designer</small></li>
-                                      <li> <small class="h6 text-white">Projekt Manager</small></li>
-                                    </ul>
-                            </div>
+
 
 
 

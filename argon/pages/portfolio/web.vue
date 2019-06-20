@@ -336,7 +336,6 @@
             </div>
         </section>
       </div>
-    </div>
 </template>
 
 <script>
